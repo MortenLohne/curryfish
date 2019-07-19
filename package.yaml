@@ -1,0 +1,36 @@
+library:
+  source-dirs: src
+tests:
+  curryfish-test:
+    source-dirs: test
+    main: Spec.hs
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - curryfish
+copyright: 2019 Author name here
+maintainer: example@example.com
+dependencies:
+- containers
+- base >= 4.7 && < 5
+name: curryfish
+version: 0.1.0.0
+extra-source-files:
+- README.md
+- ChangeLog.md
+author: Author name here
+github: githubuser/curryfish
+license: BSD3
+executables:
+  curryfish-exe:
+    source-dirs: app
+    main: Main.hs
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - curryfish
+description: Please see the README on GitHub at <https://github.com/githubuser/curryfish#readme>
