@@ -8,7 +8,7 @@ import           Control.Concurrent
 import           Data.IORef
 import           System.IO
 
-max_depth = 4
+max_depth = 5
 
 main :: IO ()
 main = do
