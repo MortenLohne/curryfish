@@ -8,6 +8,8 @@ import           Control.Concurrent
 import           Data.IORef
 import           System.IO
 
+max_depth = 4
+
 main :: IO ()
 main = do
     hSetBuffering stdout NoBuffering
@@ -17,27 +19,32 @@ main = do
 main' :: IORef String -> Chess -> Maybe ThreadId -> IO ()
 main' ref currentPosition searchThread = do
     line <- getLine
-    case line of
-        "uci" -> do
+    case words line of
+        "uci":_ -> do
             putStrLn "id name curryfish\nauthor Petter Daae\nuciok"
             main' ref (readFen fen_start) searchThread
-        "ucinewgame" -> do
+        "ucinewgame":_ -> do
             stopSearch searchThread
             main' ref (readFen fen_start) Nothing
-        ('g' : 'o' : xs) -> do
+        "go":_ -> do
             stopSearch searchThread
             tid <- forkIO $ go ref currentPosition 1
             main' ref currentPosition $ Just tid
-        "stop" -> do
+        "stop":_ -> do
             stopSearch searchThread
             bestMove <- readIORef ref
             putStrLn $ "bestmove " ++ bestMove
             main' ref currentPosition searchThread
-        "quit"    -> return ()
-        "isready" -> do
+        "quit":_    -> return ()
+        "isready":_ -> do
             putStrLn "readyok"
             main' ref currentPosition searchThread
-        "position" -> undefined -- position [fen  | startpos ]  moves  .... 
+        "position":xs -> do
+            stopSearch searchThread
+            main' ref (readUCIPosition xs) searchThread-- position [fen  | startpos ]  moves  .... 
+        "printboard":_ -> do
+            print currentPosition
+            main' ref currentPosition searchThread
         _          -> main' ref currentPosition searchThread
 
 go :: IORef String -> Chess -> Int -> IO ()
@@ -46,7 +53,8 @@ go ref chess depth =
     in  do
             putStrLn $ "info depth " ++ (show depth)
             modifyIORef' ref (\_ -> bestMove)
-            go ref chess (depth + 1)
+            if depth == max_depth then putStrLn $ "bestmove " ++ bestMove
+            else go ref chess (depth + 1)
 
 stopSearch :: Maybe ThreadId -> IO ()
 stopSearch (Just id) = killThread id

@@ -3,6 +3,21 @@ module Fen where
 import Chess
 import Data.Char
 
+readUCIPosition :: [String] -> Chess
+readUCIPosition ("startpos":"moves":xs) = doMoves xs $ readFen fen_start
+readUCIPosition (fen:"moves":xs) = doMoves xs $ readFen fen
+readUCIPosition (fen:xs) = readFen fen
+
+doMoves :: [String] -> Chess -> Chess
+doMoves [] chess = chess
+doMoves (x:xs) chess = let move = readMove x in doMoves xs $ doMove chess move
+
+readMove :: String -> Move
+readMove (x1:y1:x2:y2:[]) = (readPos x1 y1, readPos x2 y2)
+
+readPos :: Char -> Char -> Pos
+readPos x y = (((ord x) - 96), read [y])
+
 readFen :: String -> Chess
 readFen fen = let board:rest = words fen
               in readBoard board 1 8 emptyBoard
