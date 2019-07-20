@@ -1,17 +1,36 @@
 module MinMax where
 
-import Chess
-import Moves
-import Fen
-import Score
+import           Chess
+import           Moves
+import           Fen
+import           Score
+import           Data.List
 
-test = score (readFen fen_ex_5) White
+import           Prelude                 hiding ( max
+                                                , min
+                                                )
 
 minmax :: Chess -> Int -> Move
-minmax = undefined
+minmax chess depth = 
+    let first = nextBoards chess
+        result = map (\(chess', move') -> minmax' (chess', move') depth 1 (nextMove chess)) first
+        (_, bestMove) = max result
+    in bestMove
 
-evaluate :: Chess -> Int -> Int -> Int
-evaluate chess depth currentDepth = undefined
+minmax' :: (Chess, Move) -> Int -> Int -> Color -> (Int, Move)
+minmax' (chess, move) depth currentDepth color = if depth == currentDepth
+    then (score chess color, move)
+    else
+        let next = nextBoards chess
+            result =
+                map (\(chess', _) -> minmax' (chess', move) depth (currentDepth + 1) color) next
+        in  if nextMove chess == color then max result else min result
 
-nextBoards :: Chess -> [Chess]
-nextBoards chess = [doMove chess move | move <- allMoves chess]
+nextBoards :: Chess -> [(Chess, Move)]
+nextBoards chess = [ (doMove chess move, move) | move <- allMoves chess ]
+
+max :: [(Int, Move)] -> (Int, Move)
+max = maximumBy (\(a, _) (b, _) -> compare a b)
+
+min :: [(Int, Move)] -> (Int, Move)
+min = minimumBy (\(a, _) (b, _) -> compare a b)
