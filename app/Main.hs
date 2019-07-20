@@ -51,8 +51,8 @@ go :: IORef String -> Chess -> Int -> IO ()
 go ref chess depth =
     let bestMove = showMove $ minmax chess depth
     in  do
-            putStrLn $ "info depth " ++ (show depth)
             modifyIORef' ref (\_ -> bestMove)
+            putStrLn $ "info depth " ++ (show depth)
             if depth == max_depth then putStrLn $ "bestmove " ++ bestMove
             else go ref chess (depth + 1)
 
