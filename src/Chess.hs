@@ -12,7 +12,7 @@ data Piece = Piece Color PieceType
 
 data Color = Black | White deriving (Eq)
 
-data PieceType = Pawn | Knight | Rook | Bishop | Queen | King
+data PieceType = Pawn | Knight | Rook | Bishop | Queen | King deriving Eq
 
 -- a1 = (1, 1)
 type Pos = (Int, Int)
@@ -38,6 +38,9 @@ doMove :: Chess -> Move -> Chess
 doMove chess@(Chess board color) (p1, p2) =
     let Just piece = getPiece chess p1
     in Chess (insert p2 piece $ delete p1 board) (opposite color)
+
+changeColor :: Chess -> Chess
+changeColor (Chess board color) = Chess board $ opposite color
 
 opposite :: Color -> Color
 opposite Black = White
