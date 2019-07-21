@@ -4,16 +4,24 @@ import Chess
 import Data.Char
 
 readUCIPosition :: [String] -> Chess
+readUCIPosition ("startpos":[]) = readFen fen_start
 readUCIPosition ("startpos":"moves":xs) = doMoves xs $ readFen fen_start
 readUCIPosition (fen:"moves":xs) = doMoves xs $ readFen fen
 readUCIPosition (fen:xs) = readFen fen
 
 doMoves :: [String] -> Chess -> Chess
 doMoves [] chess = chess
-doMoves (x:xs) chess = let move = readMove x in doMoves xs $ doMove chess move
+doMoves (x:xs) chess = let (move, newPiece) = readMove x 
+    in case newPiece of
+        Nothing -> doMoves xs $ doMove chess move
+        Just piece -> 
+            let (_:_:x':y':_) = x 
+                pos = readPos x' y'
+            in doMoves xs $ doMove (setPiece chess piece pos) move
 
-readMove :: String -> Move
-readMove (x1:y1:x2:y2:[]) = (readPos x1 y1, readPos x2 y2)
+readMove :: String -> (Move, Maybe Piece)
+readMove (x1:y1:x2:y2:[]) = ((readPos x1 y1, readPos x2 y2), Nothing)
+readMove str@(x1:y1:x2:y2:newPiece:[]) = (fst $ readMove $ init str, Just $ readPiece newPiece)
 
 readPos :: Char -> Char -> Pos
 readPos x y = (((ord x) - 96), read [y])
