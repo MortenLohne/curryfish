@@ -40,11 +40,11 @@ pawnMove chess pos@(x, y) piece@(Piece color _) delta start =
         _ -> []
 
 pawnAttack :: Chess -> Pos -> Piece -> Int -> [Move]
-pawnAttack chess pos piece delta =
+pawnAttack chess pos@(x, y) piece delta =
     let va (Piece color _) newPos = case getPiece chess newPos of
             Just (Piece c _) -> c /= color
             Nothing          -> False
-    in  [ (pos, p) | p <- [(1, delta), (-1, delta)], va piece p ]
+    in  [ (pos, p) | p <- [(x + 1, y + delta), (x - 1, y + delta)], va piece p ]
 
 knight :: Chess -> Pos -> Piece -> [Move]
 knight chess pos@(x, y) piece =
@@ -130,4 +130,4 @@ getKingPos chess color =
             _   -> error "found multiple kings with the same color"
 
 getMoveDestinations :: Chess -> [Pos]
-getMoveDestinations chess = [ dest | (_, dest) <- allMoves chess ]
+getMoveDestinations chess = [ dest | (_, dest) <- allMoves $ changeColor chess ]

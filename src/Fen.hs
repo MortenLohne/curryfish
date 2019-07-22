@@ -56,3 +56,6 @@ fen_ex_2 = "RRRRRRRK/pPBBBBPP/pbPBBPBP/pbbPPBBP/pbbppBBP/pbpbbpBP/ppbbbbpP/krrrr
 fen_ex_3 = "rnbqkbnr/pp1ppppp/8/8/8/2p5/PPPPPPPP/RNBQKBNR w KQkq -"
 fen_ex_4 = "rnbqkbnr/pp1ppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR w KQkq -"
 fen_ex_5 = "rnbqkbnr/pp1ppppp/8/2P5/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2"
+
+-- SAMPLE BOARDS
+blackCheckedBoard = readUCIPosition $ words "startpos moves e2e3 h7h5 f1b5 h8h6 e3e4 h6h8 e4e5 h8h6 e5e6 h6h8 e6f7"

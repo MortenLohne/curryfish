@@ -10,7 +10,7 @@ type Board = Map Pos Piece
 
 data Piece = Piece Color PieceType
 
-data Color = Black | White deriving (Eq)
+data Color = Black | White deriving (Eq, Show)
 
 data PieceType = Pawn | Knight | Rook | Bishop | Queen | King deriving Eq
 
