@@ -59,3 +59,6 @@ fen_ex_5 = "rnbqkbnr/pp1ppppp/8/2P5/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2"
 
 -- SAMPLE BOARDS
 blackCheckedBoard = readUCIPosition $ words "startpos moves e2e3 h7h5 f1b5 h8h6 e3e4 h6h8 e4e5 h8h6 e5e6 h6h8 e6f7"
+
+-- Illegal move for black : e8e7
+bugCase = readUCIPosition $ words "startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1e2 h8h7 f3g5 h7h6 e2h5 h6f6 e4e5 g8h6 e5f6 e7e5 d4e5 d8f6 e5f6 h6f5 h5f7"
