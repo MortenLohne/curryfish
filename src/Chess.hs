@@ -52,7 +52,7 @@ doKingMove chess (p1, p2) =
             ((5, 1), (3, 1)) -> rmPiece (setPiece (doMove chess ((1, 1), (4, 1))) king p2) p1
             ((5, 8), (7, 8)) -> rmPiece (setPiece (doMove chess ((8, 8), (6, 8))) king p2) p1
             ((5, 8), (3, 8)) -> rmPiece (setPiece (doMove chess ((1, 8), (4, 8))) king p2) p1
-            _                -> rmPiece (setPiece chess king p2) p1
+            _                -> changeColor $ rmPiece (setPiece chess king p2) p1
 
 changeColor :: Chess -> Chess
 changeColor (Chess board color) = Chess board $ opposite color

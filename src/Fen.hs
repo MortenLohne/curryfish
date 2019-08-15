@@ -64,3 +64,7 @@ blackCheckedBoard = readUCIPosition $ words "startpos moves e2e3 h7h5 f1b5 h8h6 
 bugCase = readUCIPosition $ words "startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1e2 h8h7 f3g5 h7h6 e2h5 h6f6 e4e5 g8h6 e5f6 e7e5 d4e5 d8f6 e5f6 h6f5 h5f7"
 
 bugCase2 = readUCIPosition $ words "startpos moves e2e3 h7h5 g1f3 h8h6 d2d4 h6h8 f1d3 h8h6 e3e4 h6h8 e1g1 h8h7 f3g5 h7h8 d1f3 g8f6 e4e5 h8h6 e5f6 h6f6 f3h5 g7g6 h5h8 f6b6 g5h7 d7d5 h7f8 d8d6 f8e6 e8d7 h8d8 d7e6 " --f1e1"
+
+bugCase3 = readUCIPosition $ words "startpos moves g1f3 f7f5 g2g3 h7h5 f1g2 h8h6 d2d3 h6h8 c1g5 e8f7 f3e5"
+
+bugCase4 = readUCIPosition $ words "startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 f8e7 h1h5 d8d6 h5h1 e8g8"

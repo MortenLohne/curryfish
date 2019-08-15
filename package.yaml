@@ -19,7 +19,6 @@ name: curryfish
 version: 0.1.0.0
 extra-source-files:
 - README.md
-- ChangeLog.md
 author: Author name here
 github: githubuser/curryfish
 license: BSD3

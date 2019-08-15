@@ -1,0 +1,868 @@
+6 c1f4 c8e6
+2019-08-15 14:40:49.331<--1:info depth 4 seldepth 12 score cp 49 time 1 nodes 1073 nps 536500 hashfull 0 pv e2e3 e7e6 d2d4
+2019-08-15 14:40:49.331<--1:info depth 4 seldepth 12 score cp 51 time 1 nodes 1926 nps 963000 hashfull 0 pv a2a4 e7e6 d2d3
+2019-08-15 14:40:49.331<--1:info depth 4 seldepth 12 score cp 83 time 1 nodes 2852 nps 1426000 hashfull 0 pv d2d4 e7e6 e2e4 g7g6
+2019-08-15 14:40:49.331<--1:info depth 5 seldepth 12 score cp 70 time 2 nodes 4814 nps 1604666 hashfull 0 pv d2d4 d8a5 d4c5 e7e6 e2e4
+2019-08-15 14:40:49.405<--1:info depth 10 seldepth 20 score cp 59 time 75 nodes 174431 nps 2295144 hashfull 15 pv d2d4 c5d4 d1d4 e7e6 d4f4 d8a5 c1d2 f8b4 e2e4 b8c6
+2019-08-15 14:40:49.851<--1:info depth 12 seldepth 30 score cp 68 time 521 nodes 1282496 nps 2456888 hashfull 126 pv e2e4 f5e4 c3e4 d7d6 d2d4 g8f6 f1d3 c5d4 f3d4 d8a5 c2c3 b8c6 e1g1
+2019-08-15 14:40:50.227<--1:info depth 13 seldepth 32 score cp 56 time 897 nodes 2221260 nps 2473563 hashfull 219 pv e2e4 f5e4 c3e4 d7d6 f3g5 b8c6 f1b5 g7g6 e1g1 h7h6 g5f3 e8f7 d2d4
+2019-08-15 14:40:51.061<--1:info depth 14 seldepth 36 score cp 57 time 1731 nodes 4207030 nps 2429001 hashfull 398 pv e2e4 f5e4 c3e4 e7e6 d2d4 c5d4 d1d4 b8c6 e4d6 f8d6 d4d6 g8f6 f1d3 d8a5 c1d2 a5d5
+2019-08-15 14:40:51.329<--1:bestmove e2e4 ponder f5e4
+2019-08-15 14:40:51.329*1*Found move:e2-e4
+2019-08-15 14:40:51.514*2*Start calc, move no: 5
+2019-08-15 14:40:51.515-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4
+2019-08-15 14:40:51.515-->2:go movetime 2000
+2019-08-15 14:40:51.517<--2:info depth 1
+2019-08-15 14:40:51.522<--2:info depth 2
+2019-08-15 14:40:51.564<--2:info depth 3
+2019-08-15 14:40:52.699<--2:info depth 4
+2019-08-15 14:40:52.701<--2:bestmove e7e6
+2019-08-15 14:40:52.701*2*Found move:e7-e6
+2019-08-15 14:40:52.881*1*Start calc, move no: 6
+2019-08-15 14:40:52.881-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6
+2019-08-15 14:40:52.882-->1:go movetime 2000
+2019-08-15 14:40:52.882<--1:info depth 2 seldepth 11 score cp 83 time 1 nodes 332 nps 166000 hashfull 0 pv d2d4 g7g6
+2019-08-15 14:40:52.884<--1:info depth 3 seldepth 11 score cp 100 time 1 nodes 1273 nps 636500 hashfull 0 pv e4f5 e6f5 d2d4
+2019-08-15 14:40:52.889<--1:info depth 6 seldepth 16 score cp 112 time 7 nodes 11882 nps 1485250 hashfull 0 pv e4f5 e6f5 d2d4 b8c6 c1f4 g8f6
+2019-08-15 14:40:53.962<--1:info depth 13 seldepth 33 score cp 126 time 1080 nodes 2594777 nps 2400348 hashfull 213 pv e4f5 e6f5 d2d4 g8f6 d1e2 d8e7 c3b5 e7e2 f1e2 b8a6 e1g1 c5d4 f3d4 d7d6 c1f4
+2019-08-15 14:40:54.882<--1:bestmove e4f5 ponder e6f5
+2019-08-15 14:40:54.882*1*Found move:e4xf5
+2019-08-15 14:40:55.072*2*Start calc, move no: 7
+2019-08-15 14:40:55.074-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5
+2019-08-15 14:40:55.075-->2:go movetime 2000
+2019-08-15 14:40:55.076<--2:info depth 1
+2019-08-15 14:40:55.080<--2:info depth 2
+2019-08-15 14:40:55.139<--2:info depth 3
+2019-08-15 14:40:56.973<--2:info depth 4
+2019-08-15 14:40:56.974<--2:bestmove g8e7
+2019-08-15 14:40:56.975*2*Found move:Ng8-e7
+2019-08-15 14:40:57.166*1*Start calc, move no: 8
+2019-08-15 14:40:57.167-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7
+2019-08-15 14:40:57.167-->1:go movetime 2000
+2019-08-15 14:40:57.168<--1:info depth 2 seldepth 6 score cp 150 time 1 nodes 93 nps 46500 hashfull 0 pv f5e6 d7e6
+2019-08-15 14:40:57.168<--1:info depth 3 seldepth 7 score cp 182 time 1 nodes 219 nps 109500 hashfull 0 pv f5e6 d7e6 d2d4
+2019-08-15 14:40:57.170<--1:info depth 4 seldepth 14 score cp 169 time 1 nodes 896 nps 448000 hashfull 0 pv f5e6 d7e6 f1b5 e8f7 f3e5 f7f6
+2019-08-15 14:40:57.341<--1:info depth 10 seldepth 26 score cp 158 time 173 nodes 435059 nps 2500339 hashfull 41 pv f5e6 d7e6 f3g5 e7f5 f1b5 b8c6 d2d3 f8e7 b5c6 b7c6 d1h5 g7g6 h5g4
+2019-08-15 14:40:58.209<--1:info depth 12 seldepth 37 score cp 156 time 1041 nodes 2699478 nps 2590669 hashfull 214 pv f5e6 d7e6 f1b5 b8c6 d1e2 a7a6 b5c4 c6d4 e2e4 e7c6 e1g1 d4f3 e4f3 f8d6
+2019-08-15 14:40:59.167<--1:bestmove f5e6 ponder d7e6
+2019-08-15 14:40:59.168*1*Found move:f5xe6
+2019-08-15 14:40:59.359*2*Start calc, move no: 9
+2019-08-15 14:40:59.360-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6
+2019-08-15 14:40:59.360-->2:go movetime 2000
+2019-08-15 14:40:59.361<--2:info depth 1
+2019-08-15 14:40:59.364<--2:info depth 2
+2019-08-15 14:40:59.428<--2:info depth 3
+2019-08-15 14:41:00.557<--2:info depth 4
+2019-08-15 14:41:00.558<--2:bestmove d8b6
+2019-08-15 14:41:00.558*2*Found move:Qd8-b6
+2019-08-15 14:41:00.746*1*Start calc, move no: 10
+2019-08-15 14:41:00.746-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6
+2019-08-15 14:41:00.747-->1:go movetime 2000
+2019-08-15 14:41:00.747<--1:info depth 2 seldepth 8 score cp 192 time 1 nodes 238 nps 119000 hashfull 1 pv d2d4 d7e6
+2019-08-15 14:41:00.749<--1:info depth 2 seldepth 9 score cp 225 time 1 nodes 511 nps 255500 hashfull 1 pv e6d7 c8d7 f3e5
+2019-08-15 14:41:00.750<--1:info depth 4 seldepth 12 score cp 244 time 2 nodes 3809 nps 1269666 hashfull 1 pv f3g5 d7e6 d1h5 g7g6 h5f3
+2019-08-15 14:41:00.752<--1:info depth 5 seldepth 16 score cp 204 time 4 nodes 6616 nps 1323200 hashfull 1 pv f3g5 d7e6 f1b5 c8d7 b5d7 b8d7 d1f3
+2019-08-15 14:41:00.759<--1:info depth 5 seldepth 16 score cp 254 time 8 nodes 13001 nps 1444555 hashfull 2 pv e6d7 c8d7 f1c4 d7e6 d1e2 e6c4
+2019-08-15 14:41:00.767<--1:info depth 7 seldepth 17 score cp 232 time 20 nodes 31791 nps 1513857 hashfull 3 pv e6d7 c8d7 f1c4 b8c6 e1g1 e8c8 d2d3 c6b4
+2019-08-15 14:41:02.747<--1:bestmove e6d7 ponder c8d7
+2019-08-15 14:41:02.748*1*Found move:e6xd7
+2019-08-15 14:41:02.941*2*Start calc, move no: 11
+2019-08-15 14:41:02.941-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7
+2019-08-15 14:41:02.941-->2:go movetime 2000
+2019-08-15 14:41:02.942<--2:info depth 1
+2019-08-15 14:41:02.947<--2:info depth 2
+2019-08-15 14:41:02.962<--2:info depth 3
+2019-08-15 14:41:03.273<--2:info depth 4
+2019-08-15 14:41:03.274<--2:bestmove e8d7
+2019-08-15 14:41:03.274*2*Found move:Ke8xd7
+2019-08-15 14:41:03.470*1*Start calc, move no: 12
+2019-08-15 14:41:03.471-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7
+2019-08-15 14:41:03.471-->1:go movetime 2000
+2019-08-15 14:41:03.471<--1:info depth 2 seldepth 7 score cp 252 time 1 nodes 218 nps 109000 hashfull 0 pv d2d4 b6e6 c1e3
+2019-08-15 14:41:03.472<--1:info depth 2 seldepth 10 score cp 395 time 1 nodes 424 nps 212000 hashfull 0 pv f3e5 d7e6 d1h5
+2019-08-15 14:41:03.472<--1:info depth 3 seldepth 14 score cp 284 time 1 nodes 1075 nps 537500 hashfull 0 pv f3e5 d7e6 d1h5 g7g6
+2019-08-15 14:41:03.481<--1:info depth 5 seldepth 18 score cp 313 time 10 nodes 20123 nps 1829363 hashfull 2 pv f3e5 d7e8 d1h5 g7g6 h5f3 c8f5 f1c4
+2019-08-15 14:41:03.494<--1:info depth 6 seldepth 18 score cp 329 time 22 nodes 45457 nps 1976391 hashfull 3 pv f3e5 d7e8 f1c4 b6f6 d1h5 g7g6 c3e4 f6b6
+2019-08-15 14:41:03.527<--1:info depth 7 seldepth 22 score cp 318 time 55 nodes 131659 nps 2351053 hashfull 11 pv f3e5 d7e8 f1b5 b8c6 e1g1 c8e6 f1e1 a7a6 d1h5 e8d8
+2019-08-15 14:41:03.537<--1:info depth 7 seldepth 22 score cp 321 time 66 nodes 152568 nps 2277134 hashfull 14 pv d2d4 c5d4 f1b5 b8c6 f3d4 d7e8 d1h5 e8d8 d4f3
+2019-08-15 14:41:03.664<--1:info depth 9 seldepth 28 score cp 332 time 192 nodes 468045 nps 2425103 hashfull 46 pv d2d4 c5d4 f1b5 d7d8 f3d4 c8d7 d4b3 b8c6 c1e3 b6c7
+2019-08-15 14:41:03.782<--1:info depth 10 seldepth 27 score cp 318 time 310 nodes 768092 nps 2469749 hashfull 72 pv d2d4 c5d4 f1b5 d7d8 f3d4 c8d7 d4f3 b6e6 c1e3 b8c6 f3g5 e6f6
+2019-08-15 14:41:04.358<--1:info depth 11 seldepth 32 score cp 331 time 886 nodes 2335574 nps 2633116 hashfull 188 pv d2d4 c5d4 f3d4 d7e8 f1b5 c8d7 e1g1 a7a6 b5c4 b6c5 d1d3 b8c6
+2019-08-15 14:41:05.472<--1:bestmove d2d4 ponder c5d4
+2019-08-15 14:41:05.472*1*Found move:d2-d4
+2019-08-15 14:41:05.662*2*Start calc, move no: 13
+2019-08-15 14:41:05.663-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4
+2019-08-15 14:41:05.663-->2:go movetime 2000
+2019-08-15 14:41:05.665<--2:info depth 1
+2019-08-15 14:41:05.674<--2:info depth 2
+2019-08-15 14:41:05.769<--2:info depth 3
+2019-08-15 14:41:09.012<--2:info depth 4
+2019-08-15 14:41:09.013<--2:bestmove c5d4
+2019-08-15 14:41:09.013*2*Found move:c5xd4
+2019-08-15 14:41:09.218*1*Start calc, move no: 14
+2019-08-15 14:41:09.219-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4
+2019-08-15 14:41:09.219-->1:go movetime 2000
+2019-08-15 14:41:09.219<--1:info depth 9 seldepth 9 score cp 331 time 1 nodes 0 nps 0 hashfull 1 pv f3d4 d7e8 f1b5 c8d7 e1g1 a7a6 b5c4 b6c5 d1d3 b8c6
+2019-08-15 14:41:09.324<--1:info depth 10 seldepth 28 score cp 344 time 105 nodes 272104 nps 2567018 hashfull 26 pv f3d4 d7e8 f1b5 c8d7 e1g1 b8c6 c1e3 b6c7 f1e1 c6d4 e3d4
+2019-08-15 14:41:10.879<--1:info depth 11 seldepth 33 score cp 384 time 1659 nodes 4555004 nps 2743978 hashfull 368 pv f3d4 d7d8 d4e6 d8e8 f1b5 c8d7 d1h5 e7g6 h5d5 g6e7 d5e5 d7b5 c3b5 b6a5
+2019-08-15 14:41:11.219<--1:bestmove f3d4 ponder d7e8
+2019-08-15 14:41:11.219*1*Found move:Nf3xd4
+2019-08-15 14:41:11.417*2*Start calc, move no: 15
+2019-08-15 14:41:11.418-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4
+2019-08-15 14:41:11.418-->2:go movetime 2000
+2019-08-15 14:41:11.422<--2:info depth 1
+2019-08-15 14:41:11.431<--2:info depth 2
+2019-08-15 14:41:11.547<--2:info depth 3
+2019-08-15 14:41:15.209<--2:info depth 4
+2019-08-15 14:41:15.210<--2:bestmove d7e8
+2019-08-15 14:41:15.210*2*Found move:Kd7-e8
+2019-08-15 14:41:15.421*1*Start calc, move no: 16
+2019-08-15 14:41:15.422-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8
+2019-08-15 14:41:15.422-->1:go movetime 2000
+2019-08-15 14:41:15.423<--1:info depth 2 seldepth 10 score cp 302 time 1 nodes 247 nps 123500 hashfull 0 pv f1c4 c8d7
+2019-08-15 14:41:15.424<--1:info depth 2 seldepth 10 score cp 332 time 1 nodes 446 nps 223000 hashfull 0 pv f1b5 c8d7 e1g1 b8c6 c1e3 b6c7 f1e1 c6d4 e3d4
+2019-08-15 14:41:15.425<--1:info depth 2 seldepth 10 score cp 334 time 1 nodes 664 nps 332000 hashfull 0 pv d1h5 e8d8 h5e5 h7h5
+2019-08-15 14:41:15.425<--1:info depth 3 seldepth 10 score cp 308 time 1 nodes 1047 nps 523500 hashfull 0 pv d1h5 e8d8 h5e5 c8d7
+2019-08-15 14:41:15.426<--1:info depth 3 seldepth 15 score cp 321 time 2 nodes 3151 nps 1050333 hashfull 0 pv f1b5 b8c6 d1h5 e8d8 d4f3
+2019-08-15 14:41:15.426<--1:info depth 4 seldepth 19 score cp 334 time 4 nodes 5615 nps 1123000 hashfull 0 pv f1b5 b8c6 e1g1 c8d7 c1e3 b6c7 f1e1 c6d4 e3d4
+2019-08-15 14:41:15.432<--1:info depth 5 seldepth 18 score cp 420 time 10 nodes 18833 nps 1712090 hashfull 2 pv d4b5 e7c6 d1e2 e8f7 e2f3 f7e8 f1c4
+2019-08-15 14:41:15.441<--1:info depth 6 seldepth 18 score cp 292 time 18 nodes 35330 nps 1859473 hashfull 4 pv d4b5 e7f5 f1c4 f8b4 d1e2 e8f8 c1g5
+2019-08-15 14:41:15.455<--1:info depth 6 seldepth 23 score cp 342 time 32 nodes 66105 nps 2003181 hashfull 5 pv f1b5 c8d7 e1g1 g7g6 c1g5 e8f7 f1e1
+2019-08-15 14:41:16.403<--1:info depth 10 seldepth 31 score cp 512 time 980 nodes 2707189 nps 2759621 hashfull 220 pv d4b5 e7f5 c3d5 b6e6 f1e2 e8f7 d5c7 f8b4 e1f1 e6e4 c7a8 f5h4
+2019-08-15 14:41:16.682<--1:info depth 11 seldepth 29 score cp 499 time 1259 nodes 3486941 nps 2767413 hashfull 276 pv d4b5 e7f5 c3d5 b6e6 f1e2 e8f7 d5c7 e6e4 c7a8 a7a6 b5c3 e4g2
+2019-08-15 14:41:17.422<--1:bestmove d4b5 ponder e7f5
+2019-08-15 14:41:17.422*1*Found move:Nd4-b5
+2019-08-15 14:41:17.612*2*Start calc, move no: 17
+2019-08-15 14:41:17.613-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5
+2019-08-15 14:41:17.613-->2:go movetime 2000
+2019-08-15 14:41:17.615<--2:info depth 1
+2019-08-15 14:41:17.623<--2:info depth 2
+2019-08-15 14:41:17.724<--2:info depth 3
+2019-08-15 14:41:21.989<--2:info depth 4
+2019-08-15 14:41:21.990<--2:bestmove b6e6
+2019-08-15 14:41:21.990*2*Found move:Qb6-e6
+2019-08-15 14:41:22.159*1*Start calc, move no: 18
+2019-08-15 14:41:22.160-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6
+2019-08-15 14:41:22.160-->1:go movetime 2000
+2019-08-15 14:41:22.161<--1:info depth 2 seldepth 7 score cp 312 time 1 nodes 670 nps 335000 hashfull 0 pv c1e3 e8f7 b5a7
+2019-08-15 14:41:22.162<--1:info depth 3 seldepth 14 score cp 508 time 2 nodes 2464 nps 821333 hashfull 0 pv c1e3 b8a6 b5d6 e8d8 d6b7
+2019-08-15 14:41:22.165<--1:info depth 4 seldepth 14 score cp 574 time 5 nodes 8664 nps 1444000 hashfull 0 pv c1e3 e7d5 c3d5 e8f7 b5a7
+2019-08-15 14:41:22.175<--1:info depth 5 seldepth 20 score cp 595 time 15 nodes 28410 nps 1775625 hashfull 2 pv c1e3 b8a6 b5d6 e8d7 d6f7 e7d5 f7h8
+2019-08-15 14:41:22.213<--1:info depth 7 seldepth 23 score cp 616 time 52 nodes 118706 nps 2239735 hashfull 11 pv c1e3 b8a6 f1c4 e7d5 c4d5 e6f6 e1g1 f8c5
+2019-08-15 14:41:22.251<--1:info depth 8 seldepth 27 score cp 633 time 90 nodes 216691 nps 2381219 hashfull 22 pv c1e3 b8a6 f1c4 e7d5 c4d5 e6e5 e1g1 f8d6 g2g3
+2019-08-15 14:41:22.371<--1:info depth 9 seldepth 29 score cp 649 time 210 nodes 532779 nps 2525018 hashfull 46 pv c1e3 b8a6 f1c4 e7d5 c4d5 e6e5 d1f3 e5f5 d5b7 f5f3
+2019-08-15 14:41:23.427<--1:info depth 11 seldepth 35 score cp 632 time 1266 nodes 3642440 nps 2874853 hashfull 260 pv c1e3 e6d7 b5d6 e8d8 d6f7 d8e8 f7h8 e7f5 f1c4 d7d1 a1d1 f5e3 f2e3 c8f5 e3e4
+2019-08-15 14:41:24.161<--1:bestmove c1e3 ponder e6d7
+2019-08-15 14:41:24.161*1*Found move:Bc1-e3
+2019-08-15 14:41:24.364*2*Start calc, move no: 19
+2019-08-15 14:41:24.365-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3
+2019-08-15 14:41:24.365-->2:go movetime 2000
+2019-08-15 14:41:24.367<--2:info depth 1
+2019-08-15 14:41:24.372<--2:info depth 2
+2019-08-15 14:41:24.495<--2:info depth 3
+2019-08-15 14:41:30.055<--2:info depth 4
+2019-08-15 14:41:30.055<--2:bestmove e7d5
+2019-08-15 14:41:30.056*2*Found move:Ne7-d5
+2019-08-15 14:41:30.244*1*Start calc, move no: 20
+2019-08-15 14:41:30.245-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5
+2019-08-15 14:41:30.245-->1:go movetime 2000
+2019-08-15 14:41:30.246<--1:info depth 2 seldepth 7 score cp 574 time 1 nodes 399 nps 199500 hashfull 0 pv c3d5 e8f7
+2019-08-15 14:41:30.252<--1:info depth 4 seldepth 10 score cp 819 time 2 nodes 2957 nps 985666 hashfull 0 pv c3d5 e8f7 b5c7 f8b4
+2019-08-15 14:41:30.253<--1:info depth 5 seldepth 15 score cp 843 time 5 nodes 6589 nps 1098166 hashfull 1 pv c3d5 e8f7 b5c7 f8b4 d5b4 e6e7
+2019-08-15 14:41:30.269<--1:info depth 7 seldepth 19 score cp 862 time 24 nodes 49391 nps 1975640 hashfull 4 pv c3d5 e8f7 d5c7 e6e4 c7a8 b8c6 a8c7
+2019-08-15 14:41:31.450<--1:info depth 12 seldepth 32 score cp 884 time 1204 nodes 3339622 nps 2771470 hashfull 231 pv c3d5 e8f7 d5c7 e6e4 c7a8 b8c6 a8c7 a7a6 b5d6 f8d6 d1d6 e4c2 e3g5
+2019-08-15 14:41:32.245<--1:bestmove c3d5 ponder e8f7
+2019-08-15 14:41:32.245*1*Found move:Nc3xd5
+2019-08-15 14:41:32.442*2*Start calc, move no: 21
+2019-08-15 14:41:32.443-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5
+2019-08-15 14:41:32.443-->2:go movetime 2000
+2019-08-15 14:41:32.445<--2:info depth 1
+2019-08-15 14:41:32.454<--2:info depth 2
+2019-08-15 14:41:32.574<--2:info depth 3
+2019-08-15 14:41:38.268<--2:info depth 4
+2019-08-15 14:41:38.269<--2:bestmove f8b4
+2019-08-15 14:41:38.269*2*Found move:Bf8-b4
+2019-08-15 14:41:38.463*1*Start calc, move no: 22
+2019-08-15 14:41:38.463-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4
+2019-08-15 14:41:38.464-->1:go movetime 2000
+2019-08-15 14:41:38.466<--1:info depth 2 seldepth 11 score cp 849 time 1 nodes 2163 nps 1081500 hashfull 1 pv d5b4 e6e7 b4d5
+2019-08-15 14:41:38.467<--1:info depth 3 seldepth 11 score cp 862 time 1 nodes 3422 nps 1711000 hashfull 1 pv d5b4 e6e5 b5d6 e8e7 d6c4
+2019-08-15 14:41:38.480<--1:info depth 5 seldepth 17 score cp 894 time 16 nodes 33125 nps 1948529 hashfull 4 pv c2c3 e8f8 b5c7 e6e5 c7a8 b4c5
+2019-08-15 14:41:38.503<--1:info depth 6 seldepth 20 score cp 924 time 38 nodes 91545 nps 2347307 hashfull 7 pv c2c3 e8f7 d5c7 e6e4 c7a8 b7b6 c3b4
+2019-08-15 14:41:38.520<--1:info depth 7 seldepth 20 score cp 889 time 55 nodes 130946 nps 2338321 hashfull 9 pv c2c3 e8f7 d5c7 e6e4 c7a8 b4e7 b5a7 c8g4 d1d4 e4d4 e3d4 b8a6
+2019-08-15 14:41:38.684<--1:info depth 8 seldepth 32 score cp 940 time 219 nodes 604741 nps 2748822 hashfull 43 pv c2c3 e6e5 d5c7 e8e7 c3b4 c8d7 c7a8 d7b5 f1b5 e5b5
+2019-08-15 14:41:38.744<--1:info depth 8 seldepth 32 score cp 1116 time 279 nodes 771936 nps 2756914 hashfull 57 pv d5b4 e6e5 b5d6 e8e7 d6c4 e5e4 b4d5 e7f8 d5c7 b8c6 c7a8
+2019-08-15 14:41:38.777<--1:info depth 9 seldepth 25 score cp 1144 time 312 nodes 857273 nps 2738891 hashfull 63 pv d5b4 e6e5 b5d6 e8e7 d6c4 e5e6 b4d5 e7f8 d5c7 e6e7 d1f3 f8g8 c7a8
+2019-08-15 14:41:38.936<--1:info depth 10 seldepth 34 score cp 1163 time 471 nodes 1306055 nps 2767065 hashfull 98 pv d5b4 e6e5 b5d6 e8e7 d6c4 e5e6 b4d5 e7f8 d5c7 e6e7 c7a8 b7b5 c4d6
+2019-08-15 14:41:39.237<--1:info depth 11 seldepth 35 score cp 1176 time 772 nodes 2177022 nps 2816328 hashfull 155 pv d5b4 e6e5 b5d6 e8e7 d6c4 e5e6 b4d5 e7f8 d5c7 e6e7 c7a8 b8c6 d1f3 f8g8 e1c1
+2019-08-15 14:41:40.149<--1:info depth 12 seldepth 34 score cp 1198 time 1684 nodes 4874678 nps 2892983 hashfull 342 pv d5b4 e6e5 b5d6 e8e7 d6c4 e5e6 b4d5 e7f8 d5c7 e6e7 c7a8 b7b6 d1f3 f8g8 f3d5 c8e6 d5d6
+2019-08-15 14:41:40.464<--1:bestmove d5b4 ponder e6e5
+2019-08-15 14:41:40.464*1*Found move:Nd5xb4
+2019-08-15 14:41:40.651*2*Start calc, move no: 23
+2019-08-15 14:41:40.652-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4
+2019-08-15 14:41:40.652-->2:go movetime 2000
+2019-08-15 14:41:40.654<--2:info depth 1
+2019-08-15 14:41:40.660<--2:info depth 2
+2019-08-15 14:41:40.797<--2:info depth 3
+2019-08-15 14:41:45.935<--2:info depth 4
+2019-08-15 14:41:45.936<--2:bestmove e6d7
+2019-08-15 14:41:45.937*2*Found move:Qe6-d7
+2019-08-15 14:41:46.151*1*Start calc, move no: 24
+2019-08-15 14:41:46.152-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7
+2019-08-15 14:41:46.152-->1:go movetime 2000
+2019-08-15 14:41:46.153<--1:info depth 2 seldepth 8 score cp 926 time 1 nodes 355 nps 177500 hashfull 1 pv d1d7 e8d7 e1c1 d7e7
+2019-08-15 14:41:46.153<--1:info depth 2 seldepth 9 score cp 955 time 1 nodes 482 nps 241000 hashfull 1 pv b5d6 e8f8 d1f3 f8e7
+2019-08-15 14:41:46.153<--1:info depth 2 seldepth 13 score cp 993 time 1 nodes 1505 nps 752500 hashfull 1 pv d1h5 e8e7 e3c5 e7f6
+2019-08-15 14:41:46.155<--1:info depth 3 seldepth 16 score cp 1150 time 2 nodes 3989 nps 1329666 hashfull 1 pv d1h5 e8e7 b4d5 e7f8 e3c5 f8g8
+2019-08-15 14:41:46.164<--1:info depth 4 seldepth 18 score cp 1176 time 6 nodes 10098 nps 1442571 hashfull 1 pv d1h5 e8e7 b5c7 d7f5 h5f5
+2019-08-15 14:41:46.176<--1:info depth 5 seldepth 24 score cp 1500 time 23 nodes 50036 nps 2084833 hashfull 3 pv d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 d7e7 c5e7 g7g6
+2019-08-15 14:41:46.195<--1:info depth 6 seldepth 26 score cp 1526 time 42 nodes 99034 nps 2303116 hashfull 7 pv d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 d7e7 c5e7 h7h6 b5d6
+2019-08-15 14:41:46.239<--1:info depth 7 seldepth 25 score cp 1782 time 87 nodes 225877 nps 2566784 hashfull 19 pv d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 c8e6
+2019-08-15 14:41:46.373<--1:info depth 8 seldepth 32 score cp 1896 time 220 nodes 629756 nps 2849574 hashfull 44 pv d1h5 e8e7 b4d5 d7d5 h5d5 h8e8 d5e5 c8e6 e3c5 e7f7 b5d6 f7g8 d6e8
+2019-08-15 14:41:46.645<--1:info depth 9 seldepth 34 score cp 1964 time 493 nodes 1476212 nps 2988283 hashfull 89 pv d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 g8g7 h5e5 g7h6 e5h8 b8d7
+2019-08-15 14:41:47.704<--1:info depth 10 seldepth 36 score cp 2280 time 1551 nodes 4844010 nps 3121140 hashfull 289 pv d1h5 e8e7 b4d5 d7d5 h5d5 h8e8 d5e5 c8e6 e3c5 e7f7 b5d6 f7e7 d6e8 e7e8 e5e6 e8d8 e1c1 d8c7
+2019-08-15 14:41:48.152<--1:bestmove d1h5 ponder e8e7
+2019-08-15 14:41:48.153*1*Found move:Qd1-h5
+2019-08-15 14:41:48.353*2*Start calc, move no: 25
+2019-08-15 14:41:48.354-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5
+2019-08-15 14:41:48.354-->2:go movetime 2000
+2019-08-15 14:41:48.361<--2:info depth 1
+2019-08-15 14:41:48.370<--2:info depth 2
+2019-08-15 14:41:48.397<--2:info depth 3
+2019-08-15 14:41:49.121<--2:info depth 4
+2019-08-15 14:41:49.121<--2:bestmove e8e7
+2019-08-15 14:41:49.122*2*Found move:Ke8-e7
+2019-08-15 14:41:49.336*1*Start calc, move no: 26
+2019-08-15 14:41:49.337-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7
+2019-08-15 14:41:49.337-->1:go movetime 2000
+2019-08-15 14:41:49.338<--1:info depth 2 seldepth 7 score cp 947 time 1 nodes 518 nps 259000 hashfull 0 pv f1c4 d7f5
+2019-08-15 14:41:49.339<--1:info depth 2 seldepth 12 score cp 1139 time 1 nodes 727 nps 363500 hashfull 0 pv e3c5 e7d8 h5g5 d8e8
+2019-08-15 14:41:49.340<--1:info depth 2 seldepth 14 score cp 1150 time 1 nodes 896 nps 448000 hashfull 0 pv b4d5 e7f8 e3c5 f8g8
+2019-08-15 14:41:49.341<--1:info depth 2 seldepth 14 score cp 1240 time 1 nodes 1166 nps 583000 hashfull 0 pv h5c5 e7d8 e3g5 d8e8
+2019-08-15 14:41:49.342<--1:info depth 3 seldepth 12 score cp 1251 time 1 nodes 1872 nps 936000 hashfull 0 pv h5c5 e7d8 e3g5 d8e8 b5c7 e8f7
+2019-08-15 14:41:49.343<--1:info depth 3 seldepth 12 score cp 1817 time 1 nodes 2020 nps 1010000 hashfull 0 pv b4d5 e7f8 e3c5 d7e7 c5e7
+2019-08-15 14:41:49.343<--1:info depth 4 seldepth 18 score cp 2142 time 2 nodes 3450 nps 1150000 hashfull 1 pv b4d5 e7f8 e3c5 f8g8 d5e7 g8f8 e7c8 d7e7
+2019-08-15 14:41:49.354<--1:info depth 6 seldepth 24 score cp 2080 time 16 nodes 34288 nps 2016941 hashfull 3 pv b4d5 d7d5 h5d5 c8e6 d5g5 e7e8 g5g7 e6f7
+2019-08-15 14:41:49.368<--1:info depth 7 seldepth 22 score cp 2113 time 30 nodes 73666 nps 2376322 hashfull 6 pv b4d5 d7d5 h5d5 c8e6 d5g5 e7e8 g5g7 e6f7 g7h8 e8e7
+2019-08-15 14:41:49.411<--1:info depth 8 seldepth 27 score cp 2366 time 73 nodes 214272 nps 2895567 hashfull 15 pv b4d5 d7d5 h5d5 h8e8 d5e5 e7f8 e3c5 f8f7 b5d6 f7g6 f1d3 c8f5 e5e8 g6g5
+2019-08-15 14:41:49.538<--1:info depth 9 seldepth 30 score cp 2568 time 200 nodes 635225 nps 3160323 hashfull 38 pv b4d5 d7d5 h5d5 h8d8 e3c5 e7f6 d5d8 f6g6 d8c8 a7a5 f1d3 g6h6 c8h3 h6g5
+2019-08-15 14:41:49.908<--1:info depth 10 seldepth 31 score mate 10 time 571 nodes 1795263 nps 3138571 hashfull 122 pv b4d5 d7d5 h5d5 h8d8 e3c5 e7f6 d5d8 f6g6 d8e8 g6f6 c5d4 f6g5 h2h4 g5h6 d4e3 g7g5 h4g5 h6g7 e3d4
+2019-08-15 14:41:51.286<--1:info depth 11 seldepth 23 score mate 9 time 1948 nodes 5830220 nps 2991390 hashfull 405 pv b4d5 d7d5 h5d5 h8d8 e3g5 e7f8 d5d8 f8f7 d8d5 c8e6 b5d6 f7g6 d5e6 g6h5 h2h4 h7h6 f1e2
+2019-08-15 14:41:51.337<--1:bestmove b4d5 ponder d7d5
+2019-08-15 14:41:51.338*1*Found move:Nb4-d5
+2019-08-15 14:41:51.528*2*Start calc, move no: 27
+2019-08-15 14:41:51.528-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5
+2019-08-15 14:41:51.529-->2:go movetime 2000
+2019-08-15 14:41:51.530<--2:info depth 1
+2019-08-15 14:41:51.534<--2:info depth 2
+2019-08-15 14:41:51.549<--2:info depth 3
+2019-08-15 14:41:52.201<--2:info depth 4
+2019-08-15 14:41:52.202<--2:bestmove e7f8
+2019-08-15 14:41:52.202*2*Found move:Ke7-f8
+2019-08-15 14:41:52.408*1*Start calc, move no: 28
+2019-08-15 14:41:52.409-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8
+2019-08-15 14:41:52.410-->1:go movetime 2000
+2019-08-15 14:41:52.411<--1:info depth 2 seldepth 10 score cp 1150 time 1 nodes 401 nps 200500 hashfull 0 pv e3c5 f8g8 d5e7 g8f8
+2019-08-15 14:41:52.412<--1:info depth 3 seldepth 10 score cp 2142 time 1 nodes 700 nps 350000 hashfull 0 pv e3c5 f8g8 d5e7 g8f8 e7c8 d7e7
+2019-08-15 14:41:52.417<--1:info depth 5 seldepth 14 score cp 1782 time 3 nodes 5122 nps 1280500 hashfull 1 pv e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 c8e6
+2019-08-15 14:41:52.418<--1:info depth 6 seldepth 14 score cp 2252 time 4 nodes 7527 nps 1505400 hashfull 1 pv e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7
+2019-08-15 14:41:52.433<--1:info depth 8 seldepth 17 score mate 8 time 22 nodes 49991 nps 2173521 hashfull 3 pv e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5
+2019-08-15 14:41:52.469<--1:info depth 9 seldepth 17 score mate 8 time 58 nodes 145841 nps 2471881 hashfull 10 pv e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5 g2g4
+2019-08-15 14:41:52.644<--1:info depth 10 seldepth 19 score mate 8 time 233 nodes 660308 nps 2821829 hashfull 41 pv e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5 g2g4
+2019-08-15 14:41:53.066<--1:info depth 11 seldepth 21 score mate 8 time 655 nodes 1886333 nps 2875507 hashfull 138 pv e3c5 f8g8 d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5 g2g4
+2019-08-15 14:41:54.410<--1:bestmove e3c5 ponder f8g8
+2019-08-15 14:41:54.411*1*Found move:Be3-c5
+2019-08-15 14:41:54.598*2*Start calc, move no: 29
+2019-08-15 14:41:54.599-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5
+2019-08-15 14:41:54.599-->2:go movetime 2000
+2019-08-15 14:41:54.600<--2:info depth 1
+2019-08-15 14:41:54.606<--2:info depth 2
+2019-08-15 14:41:54.622<--2:info depth 3
+2019-08-15 14:41:55.104<--2:info depth 4
+2019-08-15 14:41:55.105<--2:bestmove f8g8
+2019-08-15 14:41:55.105*2*Found move:Kf8-g8
+2019-08-15 14:41:55.314*1*Start calc, move no: 30
+2019-08-15 14:41:55.315-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5 f8g8
+2019-08-15 14:41:55.315-->1:go movetime 2000
+2019-08-15 14:41:55.315<--1:info depth 10 seldepth 10 score mate 7 time 1 nodes 0 nps 0 hashfull 0 pv d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5 g2g4
+2019-08-15 14:41:55.384<--1:info depth 11 seldepth 21 score mate 7 time 69 nodes 201689 nps 2881271 hashfull 22 pv d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5 g2g4
+2019-08-15 14:41:55.850<--1:info depth 12 seldepth 23 score mate 7 time 520 nodes 1545703 nps 2966800 hashfull 155 pv d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5 g2g4
+2019-08-15 14:41:56.963<--1:info depth 13 seldepth 25 score mate 7 time 1647 nodes 4988427 nps 3026958 hashfull 477 pv d5e7 d7e7 c5e7 g7g6 f1c4 c8e6 c4e6 g8g7 h5e5 g7h6 e7g5 h6h5 g2g4
+2019-08-15 14:41:57.315<--1:bestmove d5e7 ponder d7e7
+2019-08-15 14:41:57.316*1*Found move:Nd5-e7
+2019-08-15 14:41:57.512*2*Start calc, move no: 31
+2019-08-15 14:41:57.512-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7
+2019-08-15 14:41:57.513-->2:go movetime 2000
+2019-08-15 14:41:57.514<--2:info depth 1
+2019-08-15 14:41:57.514<--2:info depth 2
+2019-08-15 14:41:57.522<--2:info depth 3
+2019-08-15 14:41:57.777<--2:info depth 4
+2019-08-15 14:41:57.778<--2:bestmove g8f8
+2019-08-15 14:41:57.778*2*Found move:Kg8-f8
+2019-08-15 14:41:57.989*1*Start calc, move no: 32
+2019-08-15 14:41:57.990-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 g8f8
+2019-08-15 14:41:57.990-->1:go movetime 2000
+2019-08-15 14:41:57.990<--1:info depth 2 seldepth 6 score cp 2142 time 1 nodes 145 nps 72500 hashfull 0 pv e7c8 d7e7 c5e7
+2019-08-15 14:41:57.991<--1:info depth 3 seldepth 5 score mate 3 time 1 nodes 384 nps 192000 hashfull 0 pv e7c8 d7e7 c5e7 f8g8 f1c4
+2019-08-15 14:41:57.993<--1:info depth 4 seldepth 7 score mate 3 time 1 nodes 2227 nps 1113500 hashfull 0 pv e7c8 d7e7 c5e7 f8g8 f1c4
+2019-08-15 14:41:57.994<--1:info depth 5 seldepth 9 score mate 3 time 4 nodes 6118 nps 1223600 hashfull 0 pv e7c8 d7e7 c5e7 f8g8 f1c4
+2019-08-15 14:41:58.002<--1:info depth 6 seldepth 11 score mate 3 time 10 nodes 13861 nps 1260090 hashfull 2 pv e7c8 d7e7 c5e7 f8g8 f1c4
+2019-08-15 14:41:58.011<--1:info depth 7 seldepth 13 score mate 3 time 21 nodes 35525 nps 1614772 hashfull 5 pv e7c8 d7e7 c5e7 f8g8 f1c4
+2019-08-15 14:41:58.035<--1:info depth 8 seldepth 13 score mate 3 time 44 nodes 89884 nps 1997422 hashfull 14 pv e7c8 d7e7 c5e7 f8g8 f1c4
+2019-08-15 14:41:58.086<--1:bestmove e7c8 ponder d7e7
+2019-08-15 14:41:58.087*1*Found move:Ne7xc8
+2019-08-15 14:41:58.282*2*Start calc, move no: 33
+2019-08-15 14:41:58.283-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 g8f8 e7c8
+2019-08-15 14:41:58.283-->2:go movetime 2000
+2019-08-15 14:41:58.285<--2:info depth 1
+2019-08-15 14:41:58.286<--2:info depth 2
+2019-08-15 14:41:58.301<--2:info depth 3
+2019-08-15 14:41:58.693<--2:info depth 4
+2019-08-15 14:41:58.694<--2:bestmove f8g8
+2019-08-15 14:41:58.694*2*Found move:Kf8-g8
+2019-08-15 14:41:58.908*1*Start calc, move no: 34
+2019-08-15 14:41:58.908-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 g8f8 e7c8 f8g8
+2019-08-15 14:41:58.909-->1:go movetime 2000
+2019-08-15 14:41:58.910<--1:info depth 1 seldepth 10 score mate 2 time 1 nodes 305 nps 152500 hashfull 0 pv f1c4 d7d5
+2019-08-15 14:41:58.911<--1:info depth 2 seldepth 3 score mate 2 time 1 nodes 400 nps 200000 hashfull 0 pv f1c4 d7d5 c4d5
+2019-08-15 14:41:58.912<--1:info depth 3 seldepth 5 score mate 2 time 1 nodes 763 nps 381500 hashfull 0 pv f1c4 d7d5 c4d5
+2019-08-15 14:41:58.913<--1:info depth 4 seldepth 7 score mate 2 time 1 nodes 2246 nps 1123000 hashfull 0 pv f1c4 d7d5 c4d5
+2019-08-15 14:41:58.914<--1:info depth 5 seldepth 9 score mate 2 time 4 nodes 6230 nps 1246000 hashfull 0 pv f1c4 d7d5 c4d5
+2019-08-15 14:41:58.919<--1:info depth 6 seldepth 11 score mate 2 time 9 nodes 18638 nps 1863800 hashfull 1 pv f1c4 d7d5 c4d5
+2019-08-15 14:41:58.925<--1:bestmove f1c4 ponder d7d5
+2019-08-15 14:41:58.925*1*Found move:Bf1-c4
+2019-08-15 14:41:59.135*2*Start calc, move no: 35
+2019-08-15 14:41:59.136-->2:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 g8f8 e7c8 f8g8 f1c4
+2019-08-15 14:41:59.136-->2:go movetime 2000
+2019-08-15 14:41:59.137<--2:info depth 1
+2019-08-15 14:41:59.138<--2:info depth 2
+2019-08-15 14:41:59.154<--2:info depth 3
+2019-08-15 14:41:59.591<--2:info depth 4
+2019-08-15 14:41:59.592<--2:bestmove d7f7
+2019-08-15 14:41:59.592*2*Found move:Qd7-f7
+2019-08-15 14:41:59.772*1*Start calc, move no: 36
+2019-08-15 14:41:59.773-->1:position startpos moves g1f3 f7f5 b1c3 c7c5 e2e4 e7e6 e4f5 g8e7 f5e6 d8b6 e6d7 e8d7 d2d4 c5d4 f3d4 d7e8 d4b5 b6e6 c1e3 e7d5 c3d5 f8b4 d5b4 e6d7 d1h5 e8e7 b4d5 e7f8 e3c5 f8g8 d5e7 g8f8 e7c8 f8g8 f1c4 d7f7
+2019-08-15 14:41:59.773-->1:go movetime 2000
+2019-08-15 14:41:59.774<--1:info depth 1 seldepth 8 score mate 2 time 1 nodes 109 nps 54500 hashfull 0 pv c8e7 g8f8
+2019-08-15 14:41:59.775<--1:info depth 1 seldepth 8 score mate 1 time 1 nodes 127 nps 63500 hashfull 0 pv c4f7
+2019-08-15 14:41:59.776<--1:info depth 2 seldepth 2 score mate 1 time 1 nodes 161 nps 80500 hashfull 0 pv c4f7
+2019-08-15 14:41:59.778<--1:info depth 3 seldepth 3 score mate 1 time 1 nodes 382 nps 191000 hashfull 0 pv c4f7
+2019-08-15 14:41:59.780<--1:info depth 4 seldepth 4 score mate 1 time 1 nodes 1176 nps 588000 hashfull 0 pv c4f7
+2019-08-15 14:41:59.781<--1:bestmove c4f7
+2019-08-15 14:41:59.781*1*Found move:Bc4xf7
+2019-08-15 14:42:00.000********Game end: 1-0 {Mate}
+2019-08-15 14:42:00.003********Last game won by Arminius 2017-01-01 Core2 64 bit with White in 19 moves
+2019-08-15 14:42:00.005********Arminius 2017-01-01 Core2 64 bit  -  Curryfish-exe: 
+2019-08-15 14:42:00.008********   5 W 1    5.0:0.0        5.0:0.0       14:42:00      +M1    19 11.936 :4.000  5-0-0
+2019-08-15 14:42:01.146-->1:setoption name Ponder value false
+2019-08-15 14:42:01.156********Round 6 of 100: Curryfish-exe  -  Arminius 2017-01-01 Core2 64 bit
+2019-08-15 14:42:01.229**----------New game---2019-08-15 14:42:01,229 Thu -------------
+2019-08-15 14:42:01.297*2*Start calc, move no: 0
+2019-08-15 14:42:01.298-->2:ucinewgame
+2019-08-15 14:42:01.298-->2:isready
+2019-08-15 14:42:01.298<--2:readyok
+2019-08-15 14:42:01.304-->2:position startpos
+2019-08-15 14:42:01.304-->2:go movetime 2000
+2019-08-15 14:42:01.305<--2:info depth 1
+2019-08-15 14:42:01.309<--2:info depth 2
+2019-08-15 14:42:01.335<--2:info depth 3
+2019-08-15 14:42:01.750<--2:info depth 4
+2019-08-15 14:42:01.750<--2:bestmove h2h4
+2019-08-15 14:42:01.751*2*Found move:h2-h4
+2019-08-15 14:42:01.919*1*Start calc, move no: 1
+2019-08-15 14:42:01.920-->1:ucinewgame
+2019-08-15 14:42:01.920-->1:isready
+2019-08-15 14:42:01.920<--1:readyok
+2019-08-15 14:42:01.927-->1:position startpos moves h2h4
+2019-08-15 14:42:01.927-->1:go movetime 2000
+2019-08-15 14:42:01.927<--1:bestmove e7e5 ponder c2c4
+2019-08-15 14:42:01.927*1*Found move:e7-e5
+2019-08-15 14:42:02.115*2*Start calc, move no: 2
+2019-08-15 14:42:02.116-->2:position startpos moves h2h4 e7e5
+2019-08-15 14:42:02.116-->2:go movetime 2000
+2019-08-15 14:42:02.117<--2:info depth 1
+2019-08-15 14:42:02.123<--2:info depth 2
+2019-08-15 14:42:02.157<--2:info depth 3
+2019-08-15 14:42:03.057<--2:info depth 4
+2019-08-15 14:42:03.057<--2:bestmove h4h5
+2019-08-15 14:42:03.058*2*Found move:h4-h5
+2019-08-15 14:42:03.231*1*Start calc, move no: 3
+2019-08-15 14:42:03.232-->1:position startpos moves h2h4 e7e5 h4h5
+2019-08-15 14:42:03.232-->1:go movetime 2000
+2019-08-15 14:42:03.232<--1:bestmove d7d5 ponder e2e3
+2019-08-15 14:42:03.232*1*Found move:d7-d5
+2019-08-15 14:42:03.426*2*Start calc, move no: 4
+2019-08-15 14:42:03.427-->2:position startpos moves h2h4 e7e5 h4h5 d7d5
+2019-08-15 14:42:03.428-->2:go movetime 2000
+2019-08-15 14:42:03.428<--2:info depth 1
+2019-08-15 14:42:03.432<--2:info depth 2
+2019-08-15 14:42:03.489<--2:info depth 3
+2019-08-15 14:42:04.984<--2:info depth 4
+2019-08-15 14:42:04.985<--2:bestmove h5h6
+2019-08-15 14:42:04.985*2*Found move:h5-h6
+2019-08-15 14:42:05.154*1*Start calc, move no: 5
+2019-08-15 14:42:05.155-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6
+2019-08-15 14:42:05.155-->1:go movetime 2000
+2019-08-15 14:42:05.156<--1:info depth 2 seldepth 6 score cp 116 time 1 nodes 99 nps 49500 hashfull 0 pv g8h6 e2e3
+2019-08-15 14:42:05.158<--1:info depth 4 seldepth 10 score cp 102 time 1 nodes 1292 nps 646000 hashfull 0 pv g8h6 d2d4 h6g4 g1f3
+2019-08-15 14:42:05.165<--1:info depth 6 seldepth 15 score cp 76 time 5 nodes 9019 nps 1503166 hashfull 0 pv g8h6 d2d4 h6g4 g1f3 f8b4 c2c3 b4d6
+2019-08-15 14:42:05.364<--1:info depth 11 seldepth 24 score cp 88 time 209 nodes 510121 nps 2429147 hashfull 53 pv g8h6 d2d4 e5e4 c1h6 g7h6 e2e3 h8g8 d1h5 g8g5 h5h2 c8d7
+2019-08-15 14:42:06.230<--1:info depth 14 seldepth 38 score cp 78 time 1073 nodes 2689515 nps 2504203 hashfull 251 pv g8h6 d2d4 e5e4 c1h6 g7h6 e2e3 h8g8 b1c3 c7c6 d1h5 d8f6 g1e2 c8g4 h5e5 f6e5
+2019-08-15 14:42:06.826<--1:info depth 15 seldepth 37 score cp 81 time 1671 nodes 4169207 nps 2493544 hashfull 363 pv g8h6 d2d4 e5e4 c1h6 g7h6 e2e3 h8g8 b1c3 c7c6 d1h5 d8f6 h5h4 g8g5 h4h2 c8g4
+2019-08-15 14:42:07.155<--1:bestmove g8h6 ponder d2d4
+2019-08-15 14:42:07.155*1*Found move:Ng8xh6
+2019-08-15 14:42:07.335*2*Start calc, move no: 6
+2019-08-15 14:42:07.336-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6
+2019-08-15 14:42:07.336-->2:go movetime 2000
+2019-08-15 14:42:07.337<--2:info depth 1
+2019-08-15 14:42:07.340<--2:info depth 2
+2019-08-15 14:42:07.392<--2:info depth 3
+2019-08-15 14:42:08.961<--2:info depth 4
+2019-08-15 14:42:08.962<--2:bestmove h1h5
+2019-08-15 14:42:08.962*2*Found move:Rh1-h5
+2019-08-15 14:42:09.163*1*Start calc, move no: 7
+2019-08-15 14:42:09.164-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5
+2019-08-15 14:42:09.164-->1:go movetime 2000
+2019-08-15 14:42:09.165<--1:info depth 2 seldepth 3 score cp 116 time 1 nodes 151 nps 75500 hashfull 1 pv b8c6 e2e3
+2019-08-15 14:42:09.165<--1:info depth 2 seldepth 8 score cp 124 time 1 nodes 223 nps 111500 hashfull 1 pv e5e4 d2d3
+2019-08-15 14:42:09.165<--1:info depth 2 seldepth 8 score cp 158 time 1 nodes 290 nps 145000 hashfull 1 pv h6f5
+2019-08-15 14:42:09.167<--1:info depth 2 seldepth 8 score cp 163 time 1 nodes 311 nps 155500 hashfull 1 pv f8d6
+2019-08-15 14:42:09.169<--1:info depth 3 seldepth 9 score cp 137 time 1 nodes 681 nps 340500 hashfull 1 pv f8d6 d2d4 c8g4
+2019-08-15 14:42:09.171<--1:info depth 4 seldepth 12 score cp 110 time 1 nodes 1573 nps 786500 hashfull 1 pv f8d6 d2d4 c8g4 c1g5
+2019-08-15 14:42:09.172<--1:info depth 4 seldepth 12 score cp 124 time 2 nodes 2847 nps 949000 hashfull 1 pv d8f6 e2e3 f8b4 g1f3
+2019-08-15 14:42:09.172<--1:info depth 4 seldepth 12 score cp 150 time 3 nodes 4654 nps 1163500 hashfull 1 pv b8c6 d2d3 c8g4
+2019-08-15 14:42:09.173<--1:info depth 5 seldepth 13 score cp 134 time 3 nodes 6057 nps 1514250 hashfull 1 pv b8c6 d2d3 c8g4 c1g5 f8e7
+2019-08-15 14:42:09.181<--1:info depth 7 seldepth 21 score cp 145 time 16 nodes 27747 nps 1632176 hashfull 2 pv b8c6 d2d3 c8g4 h5h2 h6g8 c1e3 d5d4
+2019-08-15 14:42:09.194<--1:info depth 8 seldepth 22 score cp 134 time 30 nodes 56287 nps 1815709 hashfull 3 pv b8c6 d2d3 c8g4 h5h2 h6g8 c2c3 f8c5 d1a4
+2019-08-15 14:42:09.284<--1:info depth 10 seldepth 25 score cp 123 time 119 nodes 270873 nps 2257275 hashfull 22 pv b8c6 d2d3 c8g4 h5h2 h6g8 g2g3 f8c5 c2c3 d5d4 f1g2
+2019-08-15 14:42:09.406<--1:info depth 10 seldepth 26 score cp 128 time 242 nodes 585686 nps 2410230 hashfull 53 pv h6g4 d2d4 g7g6 h5h1 e5e4 c1f4 f8b4 c2c3 b4d6 e2e3 d6f4
+2019-08-15 14:42:09.610<--1:info depth 11 seldepth 27 score cp 139 time 446 nodes 1096775 nps 2453635 hashfull 107 pv h6g4 d2d4 g7g6 h5h1 e5e4 e2e3 f8b4 c2c3 b4d6 f1e2 d8g5 d1c2
+2019-08-15 14:42:10.409<--1:info depth 12 seldepth 31 score cp 150 time 1245 nodes 3098481 nps 2486742 hashfull 298 pv b8c6 d2d3 h6g4 g1f3 f8c5 e2e3 g7g6 h5h3 e8g8 c1d2 a7a6 a2a4
+2019-08-15 14:42:11.164<--1:bestmove b8c6 ponder d2d3
+2019-08-15 14:42:11.164*1*Found move:Nb8-c6
+2019-08-15 14:42:11.351*2*Start calc, move no: 8
+2019-08-15 14:42:11.352-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6
+2019-08-15 14:42:11.352-->2:go movetime 2000
+2019-08-15 14:42:11.353<--2:info depth 1
+2019-08-15 14:42:11.358<--2:info depth 2
+2019-08-15 14:42:11.412<--2:info depth 3
+2019-08-15 14:42:13.328<--2:info depth 4
+2019-08-15 14:42:13.329<--2:bestmove h5h1
+2019-08-15 14:42:13.329*2*Found move:Rh5-h1
+2019-08-15 14:42:13.527*1*Start calc, move no: 9
+2019-08-15 14:42:13.528-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1
+2019-08-15 14:42:13.529-->1:go movetime 2000
+2019-08-15 14:42:13.529<--1:info depth 2 seldepth 6 score cp 152 time 1 nodes 103 nps 51500 hashfull 0 pv e5e4 d2d4
+2019-08-15 14:42:13.530<--1:info depth 2 seldepth 6 score cp 177 time 1 nodes 173 nps 86500 hashfull 0 pv a7a6
+2019-08-15 14:42:13.531<--1:info depth 2 seldepth 6 score cp 182 time 1 nodes 183 nps 91500 hashfull 0 pv g7g6
+2019-08-15 14:42:13.531<--1:info depth 2 seldepth 6 score cp 195 time 1 nodes 201 nps 100500 hashfull 0 pv c8d7
+2019-08-15 14:42:13.531<--1:info depth 2 seldepth 6 score cp 196 time 1 nodes 208 nps 104000 hashfull 0 pv c8f5
+2019-08-15 14:42:13.531<--1:info depth 2 seldepth 6 score cp 203 time 1 nodes 226 nps 113000 hashfull 0 pv f8c5 d2d4 c6d4 c1h6 c5b4 c2c3 g7h6
+2019-08-15 14:42:13.532<--1:info depth 3 seldepth 10 score cp 152 time 1 nodes 497 nps 248500 hashfull 0 pv f8c5 d2d4 c5d4
+2019-08-15 14:42:13.532<--1:info depth 3 seldepth 10 score cp 161 time 1 nodes 650 nps 325000 hashfull 0 pv c8g4 d2d3 h6g8
+2019-08-15 14:42:13.532<--1:info depth 4 seldepth 10 score cp 147 time 1 nodes 1122 nps 561000 hashfull 0 pv c8g4 d2d3 h6g8 c1d2
+2019-08-15 14:42:13.533<--1:info depth 4 seldepth 10 score cp 152 time 1 nodes 1401 nps 700500 hashfull 0 pv f8c5 d2d4 c5d4 c1h6 g7h6
+2019-08-15 14:42:13.535<--1:info depth 4 seldepth 12 score cp 160 time 1 nodes 2067 nps 1033500 hashfull 0 pv c8f5 d2d3 h6g4
+2019-08-15 14:42:13.535<--1:info depth 4 seldepth 12 score cp 190 time 1 nodes 3198 nps 1599000 hashfull 0 pv h6g4 e2e3 d8f6
+2019-08-15 14:42:13.537<--1:info depth 5 seldepth 16 score cp 164 time 3 nodes 7087 nps 1771750 hashfull 0 pv h6g4 e2e3 f8b4 f1e2 d8g5
+2019-08-15 14:42:13.537<--1:info depth 6 seldepth 16 score cp 142 time 5 nodes 11435 nps 1905833 hashfull 0 pv h6g4 e2e3 f8b4 f1e2 d8g5 e2b5
+2019-08-15 14:42:13.539<--1:info depth 6 seldepth 16 score cp 155 time 8 nodes 20452 nps 2272444 hashfull 1 pv a7a6 d2d3 h6g4 f2f3 f8b4 c2c3
+2019-08-15 14:42:13.542<--1:info depth 6 seldepth 16 score cp 176 time 12 nodes 27252 nps 2096307 hashfull 2 pv a7a5 e2e3 e5e4 d2d4 c8g4
+2019-08-15 14:42:13.555<--1:info depth 7 seldepth 18 score cp 147 time 25 nodes 54077 nps 2079884 hashfull 3 pv a7a5 d2d3 h6g4 f2f3 g4f6 c1g5 f8c5
+2019-08-15 14:42:13.572<--1:info depth 7 seldepth 21 score cp 153 time 43 nodes 95078 nps 2160863 hashfull 7 pv c8e6 d2d3 h6g4 f2f3 g4f6 c1g5 d5d4
+2019-08-15 14:42:13.585<--1:info depth 8 seldepth 20 score cp 137 time 56 nodes 120944 nps 2121824 hashfull 9 pv c8e6 d2d3 h6g4 f2f3 g4f6 c1g5 d5d4 b1d2
+2019-08-15 14:42:13.624<--1:info depth 8 seldepth 21 score cp 140 time 94 nodes 221684 nps 2333515 hashfull 15 pv a8b8 d2d3 h6g4 f2f3 g4f6 c1g5 f8c5
+2019-08-15 14:42:13.634<--1:info depth 8 seldepth 21 score cp 150 time 104 nodes 239620 nps 2282095 hashfull 18 pv f8c5 d2d4 e5d4 c1h6 g7h6 h1h6 d8g5 d1d2
+2019-08-15 14:42:13.744<--1:info depth 10 seldepth 21 score cp 166 time 214 nodes 514499 nps 2393018 hashfull 43 pv f8c5 d2d4 e5d4 c1h6 g7h6 h1h5 c8g4 h5h6 d8g5 d1d2
+2019-08-15 14:42:13.859<--1:info depth 11 seldepth 22 score cp 139 time 329 nodes 787472 nps 2386278 hashfull 72 pv f8c5 d2d4 e5d4 c1h6 g7h6 g1f3 d8d6 d1c1 c5b4 e1d1 e8g8 c1h6
+2019-08-15 14:42:14.322<--1:info depth 11 seldepth 32 score cp 152 time 793 nodes 1974805 nps 2487159 hashfull 183 pv f8d6 b1c3 d6c5 d2d4 e5d4 c1h6 g7h6 c3a4 c5b4 c2c3 d8d6 c3b4
+2019-08-15 14:42:14.556<--1:info depth 11 seldepth 32 score cp 174 time 1026 nodes 2556082 nps 2488882 hashfull 237 pv h6g4 e2e3 e5e4 d2d4 f8b4 c2c3 b4d6 f1b5 d8f6 b5c6 b7c6 f2f3 d6g3 e1d2
+2019-08-15 14:42:15.000<--1:info depth 12 seldepth 34 score cp 144 time 1470 nodes 3713053 nps 2524169 hashfull 342 pv h6g4 e2e3 e5e4 f1e2 h7h5 d2d4 f8b4 c2c3 b4e7 d1b3 c6a5 b3a4 c7c6 g1h3
+2019-08-15 14:42:15.230<--1:info depth 12 seldepth 34 score cp 150 time 1700 nodes 4296745 nps 2526011 hashfull 391 pv f8d6 b1c3 d6c5 d2d4 e5d4 c3a4 c5b4 c2c3 d4c3 b2c3 b4f8 c1h6 g7h6
+2019-08-15 14:42:15.493<--1:info depth 12 seldepth 34 score cp 153 time 1963 nodes 4945681 nps 2518167 hashfull 440 pv f8e7 d2d4 h6g4 d4e5 g4e5 g1f3 e8g8 f3e5 c6e5 c1f4 d8d6 e2e3
+2019-08-15 14:42:15.529<--1:bestmove f8e7 ponder d2d4
+2019-08-15 14:42:15.530*1*Found move:Bf8-e7
+2019-08-15 14:42:15.722*2*Start calc, move no: 10
+2019-08-15 14:42:15.723-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 f8e7
+2019-08-15 14:42:15.723-->2:go movetime 2000
+2019-08-15 14:42:15.724<--2:info depth 1
+2019-08-15 14:42:15.730<--2:info depth 2
+2019-08-15 14:42:15.776<--2:info depth 3
+2019-08-15 14:42:17.334<--2:info depth 4
+2019-08-15 14:42:17.334<--2:bestmove h1h5
+2019-08-15 14:42:17.335*2*Found move:Rh1-h5
+2019-08-15 14:42:17.530*1*Start calc, move no: 11
+2019-08-15 14:42:17.530-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 f8e7 h1h5
+2019-08-15 14:42:17.531-->1:go movetime 2000
+2019-08-15 14:42:17.531<--1:info depth 2 seldepth 3 score cp 185 time 1 nodes 98 nps 49000 hashfull 2 pv e8g8 e2e3
+2019-08-15 14:42:17.532<--1:info depth 2 seldepth 6 score cp 228 time 1 nodes 182 nps 91000 hashfull 2 pv c8g4 h5h2
+2019-08-15 14:42:17.533<--1:info depth 3 seldepth 6 score cp 251 time 1 nodes 386 nps 193000 hashfull 2 pv c8g4 h5h6 g7h6
+2019-08-15 14:42:17.535<--1:info depth 4 seldepth 8 score cp 208 time 1 nodes 716 nps 358000 hashfull 2 pv c8g4 h5h6 g7h6 d2d3
+2019-08-15 14:42:17.536<--1:info depth 4 seldepth 18 score cp 211 time 1 nodes 1241 nps 620500 hashfull 2 pv e8g8 d2d4 c8g4 h5h6
+2019-08-15 14:42:17.543<--1:info depth 6 seldepth 22 score cp 219 time 11 nodes 17127 nps 1427250 hashfull 3 pv c8g4 h5h6 g7h6 d2d3 e8d7 b1c3
+2019-08-15 14:42:17.613<--1:info depth 9 seldepth 20 score cp 203 time 82 nodes 189796 nps 2286698 hashfull 18 pv c8g4 h5h2 g4d7 e2e3 e8g8 h2h6 g7h6 d1h5 g8g7
+2019-08-15 14:42:17.737<--1:info depth 10 seldepth 30 score cp 190 time 205 nodes 503645 nps 2444878 hashfull 47 pv c8g4 h5h1 e8g8 d2d3 h6f5 c2c3 d5d4 g2g3 d8d5 g1f3
+2019-08-15 14:42:18.142<--1:info depth 11 seldepth 27 score cp 187 time 610 nodes 1533253 nps 2509415 hashfull 131 pv h6g4 d2d3 e8g8 e2e3 c8e6 f1e2 g4f6 h5h1 d5d4 e3e4 e7b4 c1d2
+2019-08-15 14:42:18.475<--1:info depth 11 seldepth 27 score cp 190 time 943 nodes 2370299 nps 2510909 hashfull 202 pv d8d6 e2e3 d6g6 h5h1 c8g4 f2f3 g4f5 d2d3 g6g3 e1e2 c6b4 c1d2
+2019-08-15 14:42:18.945<--1:info depth 12 seldepth 29 score cp 196 time 1413 nodes 3557551 nps 2515948 hashfull 303 pv d8d6 d2d3 h6g4 b1c3 e8g8 c1d2 d6c5 e2e3 d5d4 c3e4 d4e3 f2e3
+2019-08-15 14:42:19.445<--1:info depth 13 seldepth 26 score cp 196 time 1914 nodes 4823569 nps 2518834 hashfull 404 pv d8d6 d2d3 h6g4 b1c3 e8g8 c1d2 d6c5 e2e3 d5d4 c3e4 d4e3 f2e3 g4e3
+2019-08-15 14:42:19.531<--1:bestmove d8d6 ponder d2d3
+2019-08-15 14:42:19.532*1*Found move:Qd8-d6
+2019-08-15 14:42:19.718*2*Start calc, move no: 12
+2019-08-15 14:42:19.719-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 f8e7 h1h5 d8d6
+2019-08-15 14:42:19.719-->2:go movetime 2000
+2019-08-15 14:42:19.720<--2:info depth 1
+2019-08-15 14:42:19.725<--2:info depth 2
+2019-08-15 14:42:19.784<--2:info depth 3
+2019-08-15 14:42:22.076<--2:info depth 4
+2019-08-15 14:42:22.077<--2:bestmove h5h1
+2019-08-15 14:42:22.077*2*Found move:Rh5-h1
+2019-08-15 14:42:22.267*1*Start calc, move no: 13
+2019-08-15 14:42:22.268-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 f8e7 h1h5 d8d6 h5h1
+2019-08-15 14:42:22.268-->1:go movetime 2000
+2019-08-15 14:42:22.269<--1:info depth 2 seldepth 6 score cp 193 time 1 nodes 94 nps 47000 hashfull 0 pv e8g8 e2e3
+2019-08-15 14:42:22.270<--1:info depth 2 seldepth 10 score cp 195 time 1 nodes 135 nps 67500 hashfull 0 pv e5e4 e2e3
+2019-08-15 14:42:22.271<--1:info depth 2 seldepth 10 score cp 220 time 1 nodes 145 nps 72500 hashfull 0 pv a7a5
+2019-08-15 14:42:22.272<--1:info depth 2 seldepth 10 score cp 224 time 1 nodes 170 nps 85000 hashfull 0 pv c8d7
+2019-08-15 14:42:22.274<--1:info depth 2 seldepth 10 score cp 230 time 1 nodes 198 nps 99000 hashfull 0 pv d6g6
+2019-08-15 14:42:22.274<--1:info depth 3 seldepth 8 score cp 195 time 1 nodes 435 nps 217500 hashfull 0 pv d6g6 d2d3 h6f5
+2019-08-15 14:42:22.276<--1:info depth 3 seldepth 9 score cp 217 time 1 nodes 658 nps 329000 hashfull 0 pv e8g8 d2d3 h6f5
+2019-08-15 14:42:22.276<--1:info depth 4 seldepth 12 score cp 195 time 1 nodes 1126 nps 563000 hashfull 0 pv e8g8 d2d3 h6g4 c1d2
+2019-08-15 14:42:22.277<--1:info depth 4 seldepth 12 score cp 211 time 1 nodes 1461 nps 730500 hashfull 0 pv h6g4 e2e3 e5e4
+2019-08-15 14:42:22.279<--1:info depth 5 seldepth 16 score cp 222 time 4 nodes 6872 nps 1374400 hashfull 0 pv h6g4 e2e3 e5e4 f2f4 e8g8
+2019-08-15 14:42:22.281<--1:info depth 6 seldepth 19 score cp 204 time 8 nodes 12171 nps 1352333 hashfull 2 pv h6g4 e2e3 e8g8 d2d4 c8f5 h1h5
+2019-08-15 14:42:22.788<--1:info depth 11 seldepth 27 score cp 193 time 520 nodes 1356934 nps 2604479 hashfull 117 pv h6g4 e2e3 e8g8 b1c3 e5e4 h1h5 c6b4 c3b5 d6f6 f2f4 f6b6
+2019-08-15 14:42:22.914<--1:info depth 11 seldepth 27 score cp 209 time 645 nodes 1682656 nps 2604730 hashfull 151 pv e8g8 e2e3 d6g6 b2b3 c8g4 f2f3 g4f5 d2d3 g6g3 e1e2 f5e6 c1b2
+2019-08-15 14:42:23.305<--1:info depth 12 seldepth 28 score cp 198 time 1036 nodes 2739295 nps 2641557 hashfull 245 pv e8g8 e2e3 d6g6 d2d3 c8g4 g1e2 h6f5 c1d2 d5d4 e3e4 f5h4 h1h2
+2019-08-15 14:42:24.269<--1:bestmove e8g8 ponder e2e3
+2019-08-15 14:42:24.269*1*Found move:O-O
+2019-08-15 14:42:24.466*2*Start calc, move no: 14
+2019-08-15 14:42:24.467-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 f8e7 h1h5 d8d6 h5h1 e8g8
+2019-08-15 14:42:24.467-->2:go movetime 2000
+2019-08-15 14:42:24.473<--2:info depth 1
+2019-08-15 14:42:24.477<--2:info depth 2
+2019-08-15 14:42:24.545<--2:info depth 3
+2019-08-15 14:42:26.183<--2:info depth 4
+2019-08-15 14:42:26.184<--2:bestmove h6f5
+2019-08-15 14:42:26.184*2*---------> Arena:Illegal move!: "bestmove h6f5" ()
+2019-08-15 14:42:26.198********Game end: 0-1 {Arena Adjudication. Illegal move!}
+2019-08-15 14:42:26.209********Last game won by Arminius 2017-01-01 Core2 64 bit with Black in 7 moves
+2019-08-15 14:42:26.212********Arminius 2017-01-01 Core2 64 bit  -  Curryfish-exe: 
+2019-08-15 14:42:26.216********   6 B 1    6.0:0.0        6.0:0.0       14:42:26    -1.98     7 12.019 :4.000  6-0-0
+2019-08-15 14:42:27.364-->1:setoption name Ponder value false
+2019-08-15 14:42:27.375********Round 7 of 100: Arminius 2017-01-01 Core2 64 bit  -  Curryfish-exe
+2019-08-15 14:42:27.472**----------New game---2019-08-15 14:42:27,472 Thu -------------
+2019-08-15 14:42:27.538*1*Start calc, move no: 0
+2019-08-15 14:42:27.539-->1:ucinewgame
+2019-08-15 14:42:27.539-->1:isready
+2019-08-15 14:42:27.539<--1:readyok
+2019-08-15 14:42:27.547-->1:position startpos
+2019-08-15 14:42:27.548-->1:go movetime 2000
+2019-08-15 14:42:27.548<--1:bestmove d2d4 ponder d7d5
+2019-08-15 14:42:27.549*1*Found move:d2-d4
+2019-08-15 14:42:27.744*2*Start calc, move no: 1
+2019-08-15 14:42:27.745-->2:ucinewgame
+2019-08-15 14:42:27.745-->2:isready
+2019-08-15 14:42:27.746<--2:readyok
+2019-08-15 14:42:27.753-->2:position startpos moves d2d4
+2019-08-15 14:42:27.753-->2:go movetime 2000
+2019-08-15 14:42:27.754<--2:info depth 1
+2019-08-15 14:42:27.757<--2:info depth 2
+2019-08-15 14:42:27.789<--2:info depth 3
+2019-08-15 14:42:28.502<--2:info depth 4
+2019-08-15 14:42:28.503<--2:bestmove h7h5
+2019-08-15 14:42:28.503*2*Found move:h7-h5
+2019-08-15 14:42:28.668*1*Start calc, move no: 2
+2019-08-15 14:42:28.668-->1:position startpos moves d2d4 h7h5
+2019-08-15 14:42:28.669-->1:go movetime 2000
+2019-08-15 14:42:28.669<--1:bestmove e2e4 ponder g7g6
+2019-08-15 14:42:28.669*1*Found move:e2-e4
+2019-08-15 14:42:28.836*2*Start calc, move no: 3
+2019-08-15 14:42:28.836-->2:position startpos moves d2d4 h7h5 e2e4
+2019-08-15 14:42:28.836-->2:go movetime 2000
+2019-08-15 14:42:28.837<--2:info depth 1
+2019-08-15 14:42:28.842<--2:info depth 2
+2019-08-15 14:42:28.885<--2:info depth 3
+2019-08-15 14:42:30.321<--2:info depth 4
+2019-08-15 14:42:30.321<--2:bestmove h8h7
+2019-08-15 14:42:30.322*2*Found move:Rh8-h7
+2019-08-15 14:42:30.502*1*Start calc, move no: 4
+2019-08-15 14:42:30.503-->1:position startpos moves d2d4 h7h5 e2e4 h8h7
+2019-08-15 14:42:30.503-->1:go movetime 2000
+2019-08-15 14:42:30.504<--1:info depth 2 seldepth 6 score cp 56 time 1 nodes 103 nps 51500 hashfull 0 pv c1f4 e7e6
+2019-08-15 14:42:30.505<--1:info depth 2 seldepth 6 score cp 70 time 1 nodes 173 nps 86500 hashfull 0 pv c1g5 d7d6
+2019-08-15 14:42:30.506<--1:info depth 2 seldepth 6 score cp 86 time 1 nodes 237 nps 118500 hashfull 0 pv a2a4
+2019-08-15 14:42:30.507<--1:info depth 2 seldepth 6 score cp 89 time 1 nodes 257 nps 128500 hashfull 0 pv b1c3
+2019-08-15 14:42:30.508<--1:info depth 2 seldepth 6 score cp 94 time 1 nodes 267 nps 133500 hashfull 0 pv f1b5
+2019-08-15 14:42:30.509<--1:info depth 3 seldepth 7 score cp 67 time 1 nodes 378 nps 189000 hashfull 0 pv f1b5 e7e6 c1f4
+2019-08-15 14:42:30.511<--1:info depth 3 seldepth 7 score cp 76 time 1 nodes 535 nps 267500 hashfull 0 pv c1g5 d7d5 b1c3
+2019-08-15 14:42:30.513<--1:info depth 4 seldepth 15 score cp 68 time 2 nodes 3056 nps 1018666 hashfull 0 pv e4e5 e7e6 f1d3
+2019-08-15 14:42:30.514<--1:info depth 5 seldepth 15 score cp 52 time 3 nodes 5261 nps 1315250 hashfull 0 pv e4e5 d7d5 f1d3 c8g4 g1f3
+2019-08-15 14:42:30.515<--1:info depth 5 seldepth 15 score cp 54 time 3 nodes 6328 nps 1582000 hashfull 0 pv c1g5 d7d5 f1d3 c8g4 g1f3
+2019-08-15 14:42:30.516<--1:info depth 5 seldepth 15 score cp 59 time 5 nodes 7837 nps 1306166 hashfull 0 pv g1f3 e7e6 c1g5 g8f6
+2019-08-15 14:42:30.517<--1:info depth 5 seldepth 15 score cp 60 time 6 nodes 10003 nps 1429000 hashfull 0 pv c1f4 e7e6 f1b5 g7g5
+2019-08-15 14:42:30.518<--1:info depth 6 seldepth 19 score cp 44 time 15 nodes 23692 nps 1480750 hashfull 1 pv c1f4 d7d6 f1b5 c7c6 b5e2 g7g6 d1d2
+2019-08-15 14:42:30.525<--1:info depth 6 seldepth 23 score cp 49 time 19 nodes 28967 nps 1448350 hashfull 1 pv g1f3 d7d6 d4d5 c7c6 c1g5 c8g4
+2019-08-15 14:42:30.525<--1:info depth 6 seldepth 23 score cp 52 time 22 nodes 36776 nps 1598956 hashfull 1 pv c1g5 d7d6 d4d5 c8g4 f1e2 g8f6
+2019-08-15 14:42:30.533<--1:info depth 6 seldepth 23 score cp 57 time 29 nodes 49080 nps 1636000 hashfull 3 pv b1c3 e7e6 e4e5 d7d5 f1d3
+2019-08-15 14:42:30.585<--1:info depth 8 seldepth 19 score cp 64 time 81 nodes 166159 nps 2026329 hashfull 14 pv f1c4 d7d6 g1f3 c8g4 e1g1 e7e6 d4d5
+2019-08-15 14:42:30.685<--1:info depth 9 seldepth 25 score cp 81 time 181 nodes 401087 nps 2203774 hashfull 32 pv g1f3 d7d6 f3g5 h7h8 f1b5 c7c6 b5c4 e7e6 e1g1 d6d5
+2019-08-15 14:42:31.696<--1:info depth 13 seldepth 31 score cp 86 time 1192 nodes 2952390 nps 2474761 hashfull 265 pv g1f3 d7d6 f3g5 h7h8 f1c4 e7e6 d4d5 e6e5 d1f3 g8f6 f3b3 g7g6 c4b5 e8e7
+2019-08-15 14:42:32.503<--1:bestmove g1f3 ponder d7d6
+2019-08-15 14:42:32.503*1*Found move:Ng1-f3
+2019-08-15 14:42:32.692*2*Start calc, move no: 5
+2019-08-15 14:42:32.693-->2:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3
+2019-08-15 14:42:32.693-->2:go movetime 2000
+2019-08-15 14:42:32.694<--2:info depth 1
+2019-08-15 14:42:32.703<--2:info depth 2
+2019-08-15 14:42:32.743<--2:info depth 3
+2019-08-15 14:42:33.984<--2:info depth 4
+2019-08-15 14:42:33.984<--2:bestmove h7h8
+2019-08-15 14:42:33.985*2*Found move:Rh7-h8
+2019-08-15 14:42:34.200*1*Start calc, move no: 6
+2019-08-15 14:42:34.200-->1:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8
+2019-08-15 14:42:34.200-->1:go movetime 2000
+2019-08-15 14:42:34.201<--1:info depth 2 seldepth 8 score cp 80 time 1 nodes 101 nps 50500 hashfull 0 pv d4d5 e7e6
+2019-08-15 14:42:34.201<--1:info depth 2 seldepth 8 score cp 100 time 1 nodes 117 nps 58500 hashfull 0 pv e4e5
+2019-08-15 14:42:34.202<--1:info depth 2 seldepth 8 score cp 118 time 1 nodes 140 nps 70000 hashfull 0 pv c1g5
+2019-08-15 14:42:34.202<--1:info depth 2 seldepth 8 score cp 121 time 1 nodes 163 nps 81500 hashfull 0 pv f1b5
+2019-08-15 14:42:34.203<--1:info depth 3 seldepth 7 score cp 104 time 1 nodes 351 nps 175500 hashfull 0 pv f1b5 c7c6 b5c4
+2019-08-15 14:42:34.203<--1:info depth 4 seldepth 7 score cp 64 time 1 nodes 692 nps 346000 hashfull 0 pv f1b5 c7c6 b5c4 d7d6
+2019-08-15 14:42:34.203<--1:info depth 4 seldepth 12 score cp 80 time 1 nodes 1268 nps 634000 hashfull 0 pv c1g5 d7d6 d4d5 c8g4
+2019-08-15 14:42:34.203<--1:info depth 4 seldepth 12 score cp 96 time 1 nodes 1728 nps 864000 hashfull 0 pv c1f4 d7d6 d4d5
+2019-08-15 14:42:34.203<--1:info depth 5 seldepth 11 score cp 73 time 3 nodes 4543 nps 1135750 hashfull 0 pv c1f4 d7d6 d4d5 e7e5 f4g5
+2019-08-15 14:42:34.204<--1:info depth 5 seldepth 11 score cp 81 time 3 nodes 5513 nps 1378250 hashfull 0 pv c1g5 d7d6 d4d5 c8g4 f1c4
+2019-08-15 14:42:34.213<--1:info depth 6 seldepth 15 score cp 88 time 12 nodes 23169 nps 1782230 hashfull 3 pv f1e2 d7d5 e4d5 d8d5 c1f4
+2019-08-15 14:42:34.234<--1:info depth 7 seldepth 21 score cp 99 time 34 nodes 67025 nps 1915000 hashfull 6 pv f1c4 c7c6 f3e5 e7e6 d1f3 d8f6 e1g1
+2019-08-15 14:42:35.884<--1:info depth 13 seldepth 32 score cp 91 time 1684 nodes 3590724 nps 2130993 hashfull 342 pv f1c4 e7e6 b1c3 f8b4 e1g1 d7d6 c1g5
+2019-08-15 14:42:36.200<--1:bestmove f1c4 ponder e7e6
+2019-08-15 14:42:36.200*1*Found move:Bf1-c4
+2019-08-15 14:42:36.390*2*Start calc, move no: 7
+2019-08-15 14:42:36.390-->2:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4
+2019-08-15 14:42:36.390-->2:go movetime 2000
+2019-08-15 14:42:36.391<--2:info depth 1
+2019-08-15 14:42:36.396<--2:info depth 2
+2019-08-15 14:42:36.459<--2:info depth 3
+2019-08-15 14:42:38.559<--2:info depth 4
+2019-08-15 14:42:38.560<--2:bestmove h8h7
+2019-08-15 14:42:38.561*2*Found move:Rh8-h7
+2019-08-15 14:42:38.756*1*Start calc, move no: 8
+2019-08-15 14:42:38.757-->1:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7
+2019-08-15 14:42:38.757-->1:go movetime 2000
+2019-08-15 14:42:38.758<--1:info depth 2 seldepth 12 score cp 201 time 1 nodes 153 nps 76500 hashfull 0 pv c4f7 e8f7 f3g5 f7g6
+2019-08-15 14:42:38.761<--1:info depth 3 seldepth 14 score cp 289 time 1 nodes 854 nps 427000 hashfull 0 pv f3g5 d7d5 c4b5 c7c6
+2019-08-15 14:42:38.772<--1:info depth 7 seldepth 20 score cp 275 time 15 nodes 22702 nps 1418875 hashfull 1 pv f3g5 d7d5 c4b5 c7c6 g5h7 c6b5 d1h5 e7e6
+2019-08-15 14:42:38.781<--1:info depth 7 seldepth 22 score cp 344 time 24 nodes 38919 nps 1556760 hashfull 3 pv c4f7 e8f7 f3g5 f7e8 g5h7 g7g6 e1g1 g8f6 h7g5
+2019-08-15 14:42:38.792<--1:info depth 8 seldepth 18 score cp 385 time 33 nodes 49558 nps 1457588 hashfull 5 pv c4f7 e8f7 f3g5 f7e8 g5h7 g7g6 e4e5 f8g7 d1f3 d7d6
+2019-08-15 14:42:38.816<--1:info depth 9 seldepth 22 score cp 348 time 58 nodes 90626 nps 1536033 hashfull 7 pv c4f7 e8f7 f3g5 f7e8 g5h7 g7g6 e4e5 d7d5 e1g1 c8f5 c1d2
+2019-08-15 14:42:38.856<--1:info depth 10 seldepth 24 score cp 337 time 98 nodes 175548 nps 1773212 hashfull 12 pv c4f7 e8f7 f3g5 f7e8 g5h7 g7g6 d1f3 g8f6 f3g3 e8f7 h7g5 f7g8 e1g1
+2019-08-15 14:42:38.930<--1:info depth 11 seldepth 27 score cp 364 time 173 nodes 354904 nps 2039678 hashfull 33 pv c4f7 e8f7 f3g5 f7e8 g5h7 g7g6 d1f3 f8g7 e4e5 d7d6 e1g1 d6e5 d4d5
+2019-08-15 14:42:40.228<--1:info depth 15 seldepth 31 score cp 368 time 1471 nodes 3642376 nps 2474440 hashfull 286 pv c4f7 e8f7 f3g5 f7e8 g5h7 g7g6 d1d3 e8f7 d3f3 f7g7 h7g5 g8f6 e4e5 b8c6 f3f4 d7d5 e1g1 c8g4
+2019-08-15 14:42:40.758<--1:bestmove c4f7 ponder e8f7
+2019-08-15 14:42:40.758*1*Found move:Bc4xf7
+2019-08-15 14:42:40.933*2*Start calc, move no: 9
+2019-08-15 14:42:40.934-->2:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7
+2019-08-15 14:42:40.934-->2:go movetime 2000
+2019-08-15 14:42:40.935<--2:info depth 1
+2019-08-15 14:42:40.936<--2:info depth 2
+2019-08-15 14:42:40.939<--2:info depth 3
+2019-08-15 14:42:41.027<--2:info depth 4
+2019-08-15 14:42:41.028<--2:bestmove e8f7
+2019-08-15 14:42:41.028*2*Found move:Ke8xf7
+2019-08-15 14:42:41.211*1*Start calc, move no: 10
+2019-08-15 14:42:41.211-->1:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7 e8f7
+2019-08-15 14:42:41.211-->1:go movetime 2000
+2019-08-15 14:42:41.213<--1:info depth 14 seldepth 14 score cp 368 time 1 nodes 0 nps 0 hashfull 0 pv f3g5 f7e8 g5h7 g7g6 d1d3 e8f7 d3f3 f7g7 h7g5 g8f6 e4e5 b8c6 f3f4 d7d5 e1g1 c8g4
+2019-08-15 14:42:43.211<--1:bestmove f3g5 ponder f7e8
+2019-08-15 14:42:43.211*1*Found move:Nf3-g5
+2019-08-15 14:42:43.435*2*Start calc, move no: 11
+2019-08-15 14:42:43.435-->2:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7 e8f7 f3g5
+2019-08-15 14:42:43.436-->2:go movetime 2000
+2019-08-15 14:42:43.437<--2:info depth 1
+2019-08-15 14:42:43.437<--2:info depth 2
+2019-08-15 14:42:43.445<--2:info depth 3
+2019-08-15 14:42:43.607<--2:info depth 4
+2019-08-15 14:42:43.608<--2:bestmove f7g6
+2019-08-15 14:42:43.608*2*Found move:Kf7-g6
+2019-08-15 14:42:43.808*1*Start calc, move no: 12
+2019-08-15 14:42:43.809-->1:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7 e8f7 f3g5 f7g6
+2019-08-15 14:42:43.809-->1:go movetime 2000
+2019-08-15 14:42:43.810<--1:info depth 2 seldepth 8 score cp 201 time 1 nodes 79 nps 39500 hashfull 0 pv g5h7 g6h7
+2019-08-15 14:42:43.813<--1:info depth 4 seldepth 10 score cp 219 time 1 nodes 1069 nps 534500 hashfull 0 pv g5h7 g6h7 d1h5 g8h6 e1g1
+2019-08-15 14:42:43.814<--1:info depth 5 seldepth 14 score cp 171 time 3 nodes 2728 nps 682000 hashfull 0 pv g5h7 g6h7 d1h5 g8h6 e1g1 d7d6
+2019-08-15 14:42:43.816<--1:info depth 5 seldepth 19 score cp 873 time 7 nodes 8370 nps 1046250 hashfull 0 pv d1f3 g8h6 g5f7 b8c6 f7d8
+2019-08-15 14:42:43.825<--1:info depth 7 seldepth 20 score cp 782 time 14 nodes 19411 nps 1294066 hashfull 0 pv d1f3 g8h6 g5f7 b8c6 f7d8 c6d4 f3g3 h6g4
+2019-08-15 14:42:43.869<--1:info depth 10 seldepth 22 score cp 795 time 59 nodes 133262 nps 2221033 hashfull 14 pv d1f3 g8h6 g5f7 b8c6 f7d8 c6d4 f3g3 h6g4 g3c7 e7e6 c1d2
+2019-08-15 14:42:43.932<--1:info depth 11 seldepth 28 score cp 840 time 122 nodes 305993 nps 2487747 hashfull 29 pv d1f3 g8h6 g5f7 b8c6 f7d8 c6d4 f3g3 h6g4 g3f4 h7h8 d8f7 d4c2 e1f1
+2019-08-15 14:42:44.139<--1:info depth 12 seldepth 30 score cp 889 time 330 nodes 919355 nps 2777507 hashfull 76 pv d1f3 g8h6 g5f7 b8c6 f7d8 c6d4 f3g3 h6g4 g3f4 h7h8 d8f7 g6h7 f7h8
+2019-08-15 14:42:44.593<--1:info depth 13 seldepth 32 score cp 875 time 784 nodes 2293923 nps 2922194 hashfull 171 pv d1f3 g8h6 g5f7 h7h8 f7d8 e7e6 c1h6 f8b4 h6d2 b4d2 b1d2 h8d8 e1g1 b8c6 c2c3
+2019-08-15 14:42:45.255<--1:info depth 14 seldepth 35 score cp 864 time 1446 nodes 4302972 nps 2973719 hashfull 320 pv d1f3 g8h6 g5f7 h7h8 f7d8 e7e6 c1h6 f8b4 h6d2 b4d2 b1d2 h8d8 e1g1 b8c6 c2c3 b7b5
+2019-08-15 14:42:45.809<--1:bestmove d1f3 ponder g8h6
+2019-08-15 14:42:45.810*1*Found move:Qd1-f3
+2019-08-15 14:42:46.004*2*Start calc, move no: 13
+2019-08-15 14:42:46.005-->2:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7 e8f7 f3g5 f7g6 d1f3
+2019-08-15 14:42:46.005-->2:go movetime 2000
+2019-08-15 14:42:46.006<--2:info depth 1
+2019-08-15 14:42:46.012<--2:info depth 2
+2019-08-15 14:42:46.054<--2:info depth 3
+2019-08-15 14:42:47.727<--2:info depth 4
+2019-08-15 14:42:47.728<--2:bestmove h7h8
+2019-08-15 14:42:47.728*2*Found move:Rh7-h8
+2019-08-15 14:42:47.927*1*Start calc, move no: 14
+2019-08-15 14:42:47.928-->1:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7 e8f7 f3g5 f7g6 d1f3 h7h8
+2019-08-15 14:42:47.928-->1:go movetime 2000
+2019-08-15 14:42:47.929<--1:info depth 1 seldepth 10 score mate 2 time 1 nodes 144 nps 72000 hashfull 0 pv f3f5 g6h6
+2019-08-15 14:42:47.931<--1:info depth 2 seldepth 5 score mate 2 time 1 nodes 225 nps 112500 hashfull 0 pv f3f5 g6h6 g5f7
+2019-08-15 14:42:47.932<--1:info depth 3 seldepth 7 score mate 2 time 1 nodes 538 nps 269000 hashfull 0 pv f3f5 g6h6 g5f7
+2019-08-15 14:42:47.933<--1:info depth 4 seldepth 9 score mate 2 time 2 nodes 2212 nps 737333 hashfull 0 pv f3f5 g6h6 g5f7
+2019-08-15 14:42:47.934<--1:info depth 5 seldepth 11 score mate 2 time 5 nodes 7137 nps 1189500 hashfull 0 pv f3f5 g6h6 g5f7
+2019-08-15 14:42:47.942<--1:info depth 6 seldepth 13 score mate 2 time 12 nodes 17672 nps 1359384 hashfull 1 pv f3f5 g6h6 g5f7
+2019-08-15 14:42:47.943<--1:bestmove f3f5 ponder g6h6
+2019-08-15 14:42:47.944*1*Found move:Qf3-f5
+2019-08-15 14:42:48.131*2*Start calc, move no: 15
+2019-08-15 14:42:48.132-->2:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7 e8f7 f3g5 f7g6 d1f3 h7h8 f3f5
+2019-08-15 14:42:48.132-->2:go movetime 2000
+2019-08-15 14:42:48.133<--2:info depth 1
+2019-08-15 14:42:48.134<--2:info depth 2
+2019-08-15 14:42:48.141<--2:info depth 3
+2019-08-15 14:42:48.235<--2:info depth 4
+2019-08-15 14:42:48.236<--2:bestmove g6h6
+2019-08-15 14:42:48.236*2*Found move:Kg6-h6
+2019-08-15 14:42:48.458*1*Start calc, move no: 16
+2019-08-15 14:42:48.458-->1:position startpos moves d2d4 h7h5 e2e4 h8h7 g1f3 h7h8 f1c4 h8h7 c4f7 e8f7 f3g5 f7g6 d1f3 h7h8 f3f5 g6h6
+2019-08-15 14:42:48.459-->1:go movetime 2000
+2019-08-15 14:42:48.459<--1:bestmove g5f7
+2019-08-15 14:42:48.459*1*Found move:Ng5-f7
+2019-08-15 14:42:48.654********Game end: 1-0 {Mate}
+2019-08-15 14:42:48.656********Last game won by Arminius 2017-01-01 Core2 64 bit with White in 9 moves
+2019-08-15 14:42:48.658********Arminius 2017-01-01 Core2 64 bit  -  Curryfish-exe: 
+2019-08-15 14:42:48.660********   7 W 1    7.0:0.0        7.0:0.0       14:42:48    -0.00     9 12.068 :4.000  7-0-0
+2019-08-15 14:42:49.828-->1:setoption name Ponder value false
+2019-08-15 14:42:49.838********Round 8 of 100: Curryfish-exe  -  Arminius 2017-01-01 Core2 64 bit
+2019-08-15 14:42:49.899**----------New game---2019-08-15 14:42:49,899 Thu -------------
+2019-08-15 14:42:49.968*2*Start calc, move no: 0
+2019-08-15 14:42:49.968-->2:ucinewgame
+2019-08-15 14:42:49.969-->2:isready
+2019-08-15 14:42:49.969<--2:readyok
+2019-08-15 14:42:49.976-->2:position startpos
+2019-08-15 14:42:49.976-->2:go movetime 2000
+2019-08-15 14:42:49.978<--2:info depth 1
+2019-08-15 14:42:49.982<--2:info depth 2
+2019-08-15 14:42:50.009<--2:info depth 3
+2019-08-15 14:42:50.454<--2:info depth 4
+2019-08-15 14:42:50.455<--2:bestmove h2h4
+2019-08-15 14:42:50.455*2*Found move:h2-h4
+2019-08-15 14:42:50.620*1*Start calc, move no: 1
+2019-08-15 14:42:50.621-->1:ucinewgame
+2019-08-15 14:42:50.621-->1:isready
+2019-08-15 14:42:50.621<--1:readyok
+2019-08-15 14:42:50.627-->1:position startpos moves h2h4
+2019-08-15 14:42:50.627-->1:go movetime 2000
+2019-08-15 14:42:50.628<--1:bestmove e7e5 ponder c2c4
+2019-08-15 14:42:50.628*1*Found move:e7-e5
+2019-08-15 14:42:50.823*2*Start calc, move no: 2
+2019-08-15 14:42:50.824-->2:position startpos moves h2h4 e7e5
+2019-08-15 14:42:50.824-->2:go movetime 2000
+2019-08-15 14:42:50.825<--2:info depth 1
+2019-08-15 14:42:50.828<--2:info depth 2
+2019-08-15 14:42:50.871<--2:info depth 3
+2019-08-15 14:42:51.878<--2:info depth 4
+2019-08-15 14:42:51.879<--2:bestmove h4h5
+2019-08-15 14:42:51.879*2*Found move:h4-h5
+2019-08-15 14:42:52.102*1*Start calc, move no: 3
+2019-08-15 14:42:52.103-->1:position startpos moves h2h4 e7e5 h4h5
+2019-08-15 14:42:52.103-->1:go movetime 2000
+2019-08-15 14:42:52.103<--1:bestmove d7d5 ponder e2e3
+2019-08-15 14:42:52.103*1*Found move:d7-d5
+2019-08-15 14:42:52.290*2*Start calc, move no: 4
+2019-08-15 14:42:52.291-->2:position startpos moves h2h4 e7e5 h4h5 d7d5
+2019-08-15 14:42:52.291-->2:go movetime 2000
+2019-08-15 14:42:52.292<--2:info depth 1
+2019-08-15 14:42:52.299<--2:info depth 2
+2019-08-15 14:42:52.366<--2:info depth 3
+2019-08-15 14:42:54.097<--2:info depth 4
+2019-08-15 14:42:54.097<--2:bestmove h5h6
+2019-08-15 14:42:54.098*2*Found move:h5-h6
+2019-08-15 14:42:54.325*1*Start calc, move no: 5
+2019-08-15 14:42:54.325-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6
+2019-08-15 14:42:54.326-->1:go movetime 2000
+2019-08-15 14:42:54.326<--1:info depth 2 seldepth 8 score cp 116 time 1 nodes 119 nps 59500 hashfull 1 pv g8h6 e2e3
+2019-08-15 14:42:54.329<--1:info depth 4 seldepth 10 score cp 102 time 1 nodes 1155 nps 577500 hashfull 1 pv g8h6 d2d4 h6g4 g1f3
+2019-08-15 14:42:54.335<--1:info depth 6 seldepth 15 score cp 76 time 5 nodes 8787 nps 1464500 hashfull 1 pv g8h6 d2d4 h6g4 g1f3 f8b4 c2c3 b4d6
+2019-08-15 14:42:54.583<--1:info depth 11 seldepth 26 score cp 88 time 257 nodes 565345 nps 2191259 hashfull 54 pv g8h6 d2d4 e5e4 c1h6 g7h6 e2e3 h8g8 d1h5 g8g5 h5h2 c8d7
+2019-08-15 14:42:55.424<--1:info depth 14 seldepth 39 score cp 64 time 1097 nodes 2551262 nps 2323553 hashfull 222 pv g8h6 d2d4 e5e4 c1h6 g7h6 e2e3 c8e6 c2c4 d5c4 d1c2 f8b4 b1c3 b4c3 b2c3 d8d5 h1h6
+2019-08-15 14:42:56.147<--1:info depth 15 seldepth 32 score cp 67 time 1820 nodes 4313599 nps 2368807 hashfull 363 pv g8h6 d2d4 e5e4 c1h6 g7h6 e2e3 c8e6 c2c4 d5c4 d1c2 f8b4 b1c3 d8d5 h1h6 e8g8 g1f3
+2019-08-15 14:42:56.326<--1:bestmove g8h6 ponder d2d4
+2019-08-15 14:42:56.327*1*Found move:Ng8xh6
+2019-08-15 14:42:56.539*2*Start calc, move no: 6
+2019-08-15 14:42:56.540-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6
+2019-08-15 14:42:56.540-->2:go movetime 2000
+2019-08-15 14:42:56.541<--2:info depth 1
+2019-08-15 14:42:56.545<--2:info depth 2
+2019-08-15 14:42:56.601<--2:info depth 3
+2019-08-15 14:42:58.138<--2:info depth 4
+2019-08-15 14:42:58.139<--2:bestmove h1h5
+2019-08-15 14:42:58.139*2*Found move:Rh1-h5
+2019-08-15 14:42:58.333*1*Start calc, move no: 7
+2019-08-15 14:42:58.333-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5
+2019-08-15 14:42:58.333-->1:go movetime 2000
+2019-08-15 14:42:58.334<--1:info depth 2 seldepth 6 score cp 116 time 1 nodes 184 nps 92000 hashfull 0 pv b8c6 e2e3
+2019-08-15 14:42:58.335<--1:info depth 2 seldepth 8 score cp 124 time 1 nodes 274 nps 137000 hashfull 0 pv e5e4 d2d3
+2019-08-15 14:42:58.336<--1:info depth 2 seldepth 8 score cp 158 time 1 nodes 347 nps 173500 hashfull 0 pv h6f5
+2019-08-15 14:42:58.339<--1:info depth 2 seldepth 8 score cp 163 time 1 nodes 368 nps 184000 hashfull 0 pv f8d6
+2019-08-15 14:42:58.339<--1:info depth 3 seldepth 9 score cp 137 time 1 nodes 690 nps 345000 hashfull 0 pv f8d6 d2d4 c8g4
+2019-08-15 14:42:58.341<--1:info depth 4 seldepth 11 score cp 110 time 1 nodes 1467 nps 733500 hashfull 0 pv f8d6 d2d4 c8g4 c1g5
+2019-08-15 14:42:58.342<--1:info depth 4 seldepth 11 score cp 145 time 2 nodes 2210 nps 736666 hashfull 0 pv d8f6 g1f3 e5e4 h5e5 c8e6
+2019-08-15 14:42:58.343<--1:info depth 4 seldepth 11 score cp 150 time 3 nodes 3910 nps 977500 hashfull 0 pv b8c6 d2d3 c8g4
+2019-08-15 14:42:58.344<--1:info depth 5 seldepth 13 score cp 134 time 4 nodes 5443 nps 1088600 hashfull 0 pv b8c6 d2d3 c8g4 c1g5 f8e7
+2019-08-15 14:42:58.352<--1:info depth 7 seldepth 18 score cp 145 time 15 nodes 23427 nps 1464187 hashfull 1 pv b8c6 d2d3 c8g4 h5h2 h6g8 c1e3 f8e7
+2019-08-15 14:42:58.362<--1:info depth 8 seldepth 23 score cp 134 time 28 nodes 51045 nps 1760172 hashfull 3 pv b8c6 d2d3 c8g4 h5h2 h6g8 c2c3 f8c5 d1a4
+2019-08-15 14:42:59.633<--1:info depth 13 seldepth 30 score cp 147 time 1300 nodes 3180194 nps 2444422 hashfull 292 pv b8c6 d2d3 h6g4 c1g5 f7f6 g5d2 e8f7 e2e3 d5d4 f1e2 d4e3 f2e3 g4h6
+2019-08-15 14:43:00.274<--1:info depth 14 seldepth 31 score cp 145 time 1941 nodes 4800560 nps 2471967 hashfull 437 pv b8c6 d2d3 h6g4 c1g5 f7f6 g5d2 e8f7 e2e3 d5d4 f1e2 g7g6 e2g4 g6h5 g4c8
+2019-08-15 14:43:00.333<--1:bestmove b8c6 ponder d2d3
+2019-08-15 14:43:00.334*1*Found move:Nb8-c6
+2019-08-15 14:43:00.514*2*Start calc, move no: 8
+2019-08-15 14:43:00.515-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6
+2019-08-15 14:43:00.515-->2:go movetime 2000
+2019-08-15 14:43:00.516<--2:info depth 1
+2019-08-15 14:43:00.521<--2:info depth 2
+2019-08-15 14:43:00.585<--2:info depth 3
+2019-08-15 14:43:02.830<--2:info depth 4
+2019-08-15 14:43:02.830<--2:bestmove h5h1
+2019-08-15 14:43:02.831*2*Found move:Rh5-h1
+2019-08-15 14:43:03.067*1*Start calc, move no: 9
+2019-08-15 14:43:03.067-->1:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1
+2019-08-15 14:43:03.068-->1:go movetime 2000
+2019-08-15 14:43:03.068<--1:info depth 2 seldepth 6 score cp 152 time 1 nodes 99 nps 49500 hashfull 0 pv e5e4 d2d4
+2019-08-15 14:43:03.070<--1:info depth 2 seldepth 10 score cp 177 time 1 nodes 243 nps 121500 hashfull 0 pv a7a6
+2019-08-15 14:43:03.070<--1:info depth 2 seldepth 10 score cp 182 time 1 nodes 299 nps 149500 hashfull 0 pv g7g6
+2019-08-15 14:43:03.070<--1:info depth 2 seldepth 10 score cp 195 time 1 nodes 319 nps 159500 hashfull 0 pv c8d7
+2019-08-15 14:43:03.071<--1:info depth 2 seldepth 10 score cp 196 time 1 nodes 367 nps 183500 hashfull 0 pv c8f5
+2019-08-15 14:43:03.071<--1:info depth 2 seldepth 10 score cp 203 time 1 nodes 425 nps 212500 hashfull 0 pv f8c5
+2019-08-15 14:43:03.071<--1:info depth 3 seldepth 10 score cp 152 time 1 nodes 844 nps 422000 hashfull 0 pv f8c5 d2d4 c5d4
+2019-08-15 14:43:03.072<--1:info depth 3 seldepth 10 score cp 161 time 1 nodes 1003 nps 501500 hashfull 0 pv c8g4 d2d3 h6g8
+2019-08-15 14:43:03.072<--1:info depth 4 seldepth 9 score cp 147 time 1 nodes 1433 nps 716500 hashfull 0 pv c8g4 d2d3 h6g8 c1d2
+2019-08-15 14:43:03.075<--1:info depth 4 seldepth 11 score cp 152 time 1 nodes 1768 nps 884000 hashfull 0 pv f8c5 d2d4 c5d4 c1h6
+2019-08-15 14:43:03.081<--1:info depth 4 seldepth 12 score cp 160 time 2 nodes 2476 nps 825333 hashfull 0 pv c8f5 d2d3 h6g4
+2019-08-15 14:43:03.082<--1:info depth 4 seldepth 12 score cp 169 time 2 nodes 3176 nps 1058666 hashfull 0 pv c8e6 e2e3 e6g4
+2019-08-15 14:43:03.082<--1:info depth 5 seldepth 12 score cp 156 time 4 nodes 5458 nps 1091600 hashfull 0 pv c8e6 e2e3 e6g4 g1f3 f8c5
+2019-08-15 14:43:03.882<--1:info depth 11 seldepth 26 score cp 163 time 813 nodes 1901196 nps 2335621 hashfull 177 pv h6g4 e2e3 e5e4 d2d3 f8b4 c2c3 b4d6 d3e4 d5e4 d1c2 c8f5 g1f3
+2019-08-15 14:43:04.321<--1:info depth 12 seldepth 29 score cp 163 time 1252 nodes 2958549 nps 2361172 hashfull 272 pv h6g4 e2e3 e5e4 d2d3 f8b4 c2c3 b4d6 d3e4 d5e4 d1d5 d8e7 f1b5 c8d7
+2019-08-15 14:43:05.047<--1:info depth 13 seldepth 30 score cp 152 time 1978 nodes 4706239 nps 2378089 hashfull 430 pv h6g4 e2e3 e5e4 d2d3 f8b4 c2c3 b4d6 d3e4 d5e4 b1d2 d8e7 d1a4 c8f5 f1a6
+2019-08-15 14:43:05.068<--1:bestmove h6g4 ponder e2e3
+2019-08-15 14:43:05.068*1*Found move:Nh6-g4
+2019-08-15 14:43:05.248*2*Start calc, move no: 10
+2019-08-15 14:43:05.249-->2:position startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 h6g4
+2019-08-15 14:43:05.249-->2:go movetime 2000
+2019-08-15 14:43:05.250<--2:info depth 1
+2019-08-15 14:43:05.257<--2:info depth 2
+2019-08-15 14:43:05.319<--2:info depth 3
+2019-08-15 14:43:07.147<--2:info depth 4
+2019-08-15 14:43:07.148<--2:bestmove f2f3
+2019-08-15 14:43:07.148*2*Found move:f2-f3
+2019-08-15 14:43:07.405********Game end: * {}
+2019-08-15 14:43:07.408********Last game finished without result in 6 moves
+2019-08-15 14:43:07.410********Arminius 2017-01-01 Core2 64 bit  -  Curryfish-exe: 
+2019-08-15 14:43:07.412********   8 * *     7.0:0.0        7.0:0.0       14:43:07    -0.00     6 12.161 :4.000  7-0-0
+2019-08-15 14:43:08.566********Tournament aborted
+
