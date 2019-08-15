@@ -110,12 +110,19 @@ row chess piece@(Piece pColor _) curr@(currX, currY) delta@(deltaX, deltaY) =
                 Nothing -> nextPos : row chess piece nextPos delta
             else []
 
+{--
+    True  : king with color is checked
+    False : king with color is not checked
+--}
 isChecked :: Chess -> Color -> Bool
 isChecked chess color =
     let kingPos          = getKingPos chess color
-        moveDestinations = getMoveDestinations chess
+        moveDestinations = getMoveDestinations chess (opposite color)
     in  elem kingPos moveDestinations
 
+{--
+    Get the position of the king with color
+--}
 getKingPos :: Chess -> Color -> Pos
 getKingPos chess color =
     case
@@ -125,9 +132,14 @@ getKingPos chess color =
             , c == color
             ]
         of
-            [x] -> x 
+            [x] -> x
             []  -> error "could'nt find king (game should have ended)"
             _   -> error "found multiple kings with the same color"
 
-getMoveDestinations :: Chess -> [Pos]
-getMoveDestinations chess = [ dest | (_, dest) <- allMoves $ changeColor chess ]
+{--
+    Get all moveDestinations for color
+--}
+getMoveDestinations :: Chess -> Color -> [Pos]
+getMoveDestinations chess color =
+    let chess' = if nextMove chess == color then chess else changeColor chess
+    in  [ dest | (_, dest) <- allMoves chess' ]
