@@ -34,7 +34,15 @@ minmax' (chess, move) depth currentDepth color = if depth == currentDepth
                     minmax' (chess', move) depth (currentDepth + 1) color
                 )
                 next
-        in  if nextMove chess == color then max result else min result
+        in  if nextMove chess == color
+                then 
+                    if null next -- this would meen no moves left
+                    then (-1000, move) 
+                    else max result
+                else 
+                    if null next 
+                    then (1000, move)
+                    else min result 
 
 nextBoards :: Chess -> [(Chess, Move)]
 nextBoards chess = [ (doMove chess move, move) | move <- allMoves chess ]

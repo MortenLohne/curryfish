@@ -68,3 +68,5 @@ bugCase2 = readUCIPosition $ words "startpos moves e2e3 h7h5 g1f3 h8h6 d2d4 h6h8
 bugCase3 = readUCIPosition $ words "startpos moves g1f3 f7f5 g2g3 h7h5 f1g2 h8h6 d2d3 h6h8 c1g5 e8f7 f3e5"
 
 bugCase4 = readUCIPosition $ words "startpos moves h2h4 e7e5 h4h5 d7d5 h5h6 g8h6 h1h5 b8c6 h5h1 f8e7 h1h5 d8d6 h5h1 e8g8"
+
+bugCase5 = readUCIPosition $ words "startpos moves e2e4 h7h5 f2f3 h8h6 d2d3 h6b6 b1a3 h5h4 g2g3 h4g3 h2g3 e7e6 f3f4 g7g6 f4f5 g6f5 e4f5 f8a3 b2a3 d8f6 a1b1 b6b1 c1d2 b1d1 e1d1 f6a1 d1e2 e6f5 g3g4 f5g4 h1h4 f7f5 h4h5 g8e7 h5g5 d7d6 g5g8 e7g8 c2c4 a1a2 e2e3 a2a1 g1e2 a1f1 e2g3 f5f4 e3e4 g8f6 e4d4 c7c5 d4c3 f1a1 c3b3 a1d1 b3a2 d1d2 a2b3 f4g3 b3a4 d2d3 a4b5"
