@@ -9,6 +9,7 @@ import           Data.IORef
 import           System.IO
 
 max_depth = 4
+version = "1.0.0"
 
 main :: IO ()
 main = do
@@ -21,7 +22,7 @@ main' ref currentPosition searchThread = do
     line <- getLine
     case words line of
         "uci":_ -> do
-            putStrLn "id name curryfish\nauthor Petter Daae\nuciok"
+            putStrLn $ "id name curryfish (" ++ version ++ ")\nauthor Petter Daae\nuciok"
             main' ref (readFen fen_start) searchThread
         "ucinewgame":_ -> do
             stopSearch searchThread
