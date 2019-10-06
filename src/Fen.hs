@@ -2,12 +2,15 @@ module Fen where
 
 import Chess
 import Data.Char
+import Data.List
 
 readUCIPosition :: [String] -> Chess
 readUCIPosition ("startpos":[]) = readFen fen_start
 readUCIPosition ("startpos":"moves":xs) = doMoves xs $ readFen fen_start
-readUCIPosition (fen:"moves":xs) = doMoves xs $ readFen fen
-readUCIPosition (fen:xs) = readFen fen
+readUCIPosition ("fen":rest) = let (fen, moves) = span (/= "moves") rest
+                               in if null moves
+                                  then readFen $ intercalate " " fen
+                                  else doMoves (tail moves) $ readFen $ intercalate " " fen
 
 doMoves :: [String] -> Chess -> Chess
 doMoves [] chess = chess
