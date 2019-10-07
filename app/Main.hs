@@ -37,6 +37,18 @@ main' ref currentPosition searchThread moveTimeThread = do
                 bestMove <- readIORef ref
                 putStrLn $ "bestmove " ++ bestMove
             main' ref currentPosition (Just tid) (Just mid)
+        "go":"wtime":wtime:"btime":btime:_ -> do
+            stopThread moveTimeThread
+            stopThread searchThread
+            tid <- forkIO $ go ref currentPosition 1
+            mid <- forkIO $ do
+                case currentPosition of
+                    Chess _ White -> threadDelay $ (read wtime) * 100
+                    Chess _ Black -> threadDelay $ (read btime) * 100
+                stopThread (Just tid)
+                bestMove <- readIORef ref
+                putStrLn $ "bestmove " ++ bestMove
+            main' ref currentPosition (Just tid) (Just mid)
         "go":_ -> do
             stopThread searchThread
             stopThread moveTimeThread
