@@ -75,10 +75,10 @@ main' ref currentPosition searchThread moveTimeThread = do
 
 go :: IORef String -> Chess -> Int -> IO ()
 go ref chess depth =
-    let bestMove = showMove $ minmax chess depth
+    let (score, bestMove) = minmax chess depth
     in  do
-            modifyIORef' ref (\_ -> bestMove)
-            putStrLn $ "info depth " ++ (show depth)
+            modifyIORef' ref (\_ -> showMove bestMove)
+            putStrLn $ "info depth " ++ (show depth) ++ " score cp " ++ (show score) ++ " pv " ++ (showMove bestMove)
             go ref chess (depth + 1)
 
 stopThread :: Maybe ThreadId -> IO ()

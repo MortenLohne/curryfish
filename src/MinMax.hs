@@ -10,7 +10,7 @@ import           Prelude                 hiding ( max
                                                 , min
                                                 )
 
-minmax :: Chess -> Int -> Move
+minmax :: Chess -> Int -> (Int, Move)
 minmax chess depth =
     let first  = nextBoards chess
         first' = filter
@@ -21,8 +21,7 @@ minmax chess depth =
                 minmax' (chess', move') depth 1 (nextMove chess)
             )
             first'
-        (_, bestMove) = max result
-    in  bestMove
+    in max result
 
 minmax' :: (Chess, Move) -> Int -> Int -> Color -> (Int, Move)
 minmax' (chess, move) depth currentDepth color = if depth == currentDepth
